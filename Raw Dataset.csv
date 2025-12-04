@@ -1,0 +1,1001 @@
+Name,Age,Salary,Gender,Department,Position,Joining Date,Performance Score,Email,Phone Number,proper()
+ grace ,25,50000,Male,HR,Manager,"April 5, 2018",D,email@example.com,nan, Grace 
+ david ,nan,65000,Female,Finance,Director,20-02-2020,F,user@domain.com,123-456-7890, David 
+ hannah ,35,SIXTY THOUSAND,Female,Sales,Director,01/15/2020,C,email@example.com,098-765-4321, Hannah 
+ eve ,nan,50000,Female,IT,Manager,"April 5, 2018",A,name@company.org, , Eve 
+ grace ,nan, NAN ,Female,Finance,Manager,01/15/2020,F,name@company.org,098-765-4321, Grace 
+ jack ,nan,65000,Other,Marketing,Director,03-25-2019,F,user@domain.com,nan, Jack 
+ charlie ,nan,50000,Male,Marketing,Clerk,2019.12.01,B,,123-456-7890, Charlie 
+ grace ,40,50000,Other,HR,Director,03-25-2019,C,, , Grace 
+ hannah ,40,SIXTY THOUSAND,Female,Marketing,Manager,01/15/2020,C,user@domain.com,123-456-7890, Hannah 
+ eve ,thirty, NAN ,Other,Finance,Assistant,20-02-2020,A,, , Eve 
+ david ,25,70000,Male,Marketing,Analyst,2019.12.01,B,nan,123-456-7890, David 
+ hannah ,nan,70000,Other,Finance,Assistant,03-25-2019,A,,nan, Hannah 
+ hannah ,thirty,50000,Male,IT,Assistant,"April 5, 2018",D,, , Hannah 
+ charlie ,25,55000,Other,HR,Manager,20-02-2020,F,,555-555-5555, Charlie 
+ frank ,50, NAN ,Male,Marketing,Director,03-25-2019,A,nan,123-456-7890, Frank 
+ eve ,35,65000,Male,Finance,Clerk,"April 5, 2018",F,,123-456-7890, Eve 
+ bob ,40,55000,Female,Sales,Assistant,01/15/2020,B,nan,098-765-4321, Bob 
+ hannah ,50,55000,Male,HR,Director,"April 5, 2018",D,user@domain.com, , Hannah 
+ frank ,25, NAN ,Female,IT,Clerk,03-25-2019,B,email@example.com,555-555-5555, Frank 
+ bob ,50,50000,Female,Finance,Assistant,03-25-2019,D,user@domain.com,nan, Bob 
+ eve ,35,50000,Female,IT,Clerk,01/15/2020,D,email@example.com,098-765-4321, Eve 
+ alice ,25,50000,Other,IT,Director,"April 5, 2018",F,user@domain.com,555-555-5555, Alice 
+ jack ,50,50000,Other,Marketing,Analyst,"April 5, 2018",B,email@example.com, , Jack 
+ frank ,40,70000,Other,Marketing,Director,01/15/2020,B,email@example.com,555-555-5555, Frank 
+ ivy ,40,50000,Other,Finance,Manager,"April 5, 2018",A,name@company.org,123-456-7890, Ivy 
+ alice ,thirty,70000,Male,Sales,Clerk,01/15/2020,B,email@example.com,123-456-7890, Alice 
+ jack ,50,70000,Male,Finance,Analyst,20-02-2020,A,email@example.com,098-765-4321, Jack 
+ charlie ,nan,50000,Other,Sales,Clerk,03-25-2019,C,name@company.org, , Charlie 
+ grace ,50,SIXTY THOUSAND,Male,IT,Clerk,20-02-2020,C,, , Grace 
+ david ,25,65000,Male,HR,Assistant,2019.12.01,C,,555-555-5555, David 
+ ivy ,25,55000,Female,Finance,Manager,2019.12.01,B,name@company.org,098-765-4321, Ivy 
+ charlie ,50,70000,Female,Finance,Clerk,2019.12.01,B,nan, , Charlie 
+ eve ,35, NAN ,Female,Sales,Director,01/15/2020,A,email@example.com,123-456-7890, Eve 
+ charlie ,40, NAN ,Female,IT,Director,"April 5, 2018",D,email@example.com,555-555-5555, Charlie 
+ grace ,25,65000,Male,IT,Assistant,20-02-2020,A,name@company.org,nan, Grace 
+ eve ,40, NAN ,Other,Sales,Manager,20-02-2020,C,name@company.org,123-456-7890, Eve 
+ ivy ,25,SIXTY THOUSAND,Male,IT,Manager,20-02-2020,A,nan,098-765-4321, Ivy 
+ grace ,thirty, NAN ,Male,Marketing,Director,20-02-2020,D,, , Grace 
+ bob ,nan,55000,Male,HR,Analyst,2019.12.01,B,user@domain.com,123-456-7890, Bob 
+ david ,25,55000,Female,Finance,Assistant,20-02-2020,A,,nan, David 
+ ivy ,40,70000,Female,HR,Assistant,"April 5, 2018",C,email@example.com,nan, Ivy 
+ bob ,thirty,50000,Female,Finance,Director,2019.12.01,C,name@company.org,098-765-4321, Bob 
+ jack ,25,SIXTY THOUSAND,Other,Marketing,Director,20-02-2020,B,nan,123-456-7890, Jack 
+ ivy ,35,70000,Male,IT,Analyst,01/15/2020,A,,555-555-5555, Ivy 
+ jack ,nan,SIXTY THOUSAND,Other,Sales,Analyst,03-25-2019,D,nan,123-456-7890, Jack 
+ eve ,25,50000,Female,Marketing,Manager,03-25-2019,B,,nan, Eve 
+ bob ,thirty, NAN ,Other,HR,Assistant,03-25-2019,A,email@example.com,098-765-4321, Bob 
+ david ,35, NAN ,Male,Sales,Assistant,2019.12.01,F,user@domain.com,098-765-4321, David 
+ grace ,50,50000,Male,IT,Director,20-02-2020,C,nan,555-555-5555, Grace 
+ hannah ,thirty,70000,Female,Marketing,Manager,2019.12.01,D,nan,098-765-4321, Hannah 
+ charlie ,thirty,50000,Female,Sales,Assistant,"April 5, 2018",D,user@domain.com,098-765-4321, Charlie 
+ alice ,35,65000,Other,Marketing,Manager,01/15/2020,D,nan,098-765-4321, Alice 
+ david ,thirty,55000,Female,Marketing,Manager,01/15/2020,C,nan,098-765-4321, David 
+ bob ,35,70000,Female,IT,Director,03-25-2019,A,,098-765-4321, Bob 
+ hannah ,25,SIXTY THOUSAND,Male,Finance,Manager,03-25-2019,B,,nan, Hannah 
+ david ,35,65000,Female,Sales,Analyst,03-25-2019,A,user@domain.com,123-456-7890, David 
+ bob ,35,70000,Female,IT,Analyst,20-02-2020,B,email@example.com, , Bob 
+ frank ,nan,50000,Male,Marketing,Clerk,"April 5, 2018",D,nan,098-765-4321, Frank 
+ frank ,35,50000,Male,IT,Director,"April 5, 2018",A,email@example.com, , Frank 
+ jack ,35,50000,Other,Finance,Clerk,"April 5, 2018",D,user@domain.com, , Jack 
+ david ,50,50000,Female,Sales,Analyst,"April 5, 2018",F,user@domain.com,nan, David 
+ frank ,25,SIXTY THOUSAND,Male,Finance,Clerk,03-25-2019,D,,098-765-4321, Frank 
+ bob ,nan,65000,Other,HR,Director,01/15/2020,D,nan, , Bob 
+ jack ,50, NAN ,Other,Sales,Director,03-25-2019,B,name@company.org,098-765-4321, Jack 
+ bob ,40,55000,Female,Finance,Manager,"April 5, 2018",F,user@domain.com,555-555-5555, Bob 
+ jack ,25,SIXTY THOUSAND,Female,Marketing,Assistant,03-25-2019,D,nan,555-555-5555, Jack 
+ david ,25,SIXTY THOUSAND,Other,Sales,Manager,"April 5, 2018",D,email@example.com,555-555-5555, David 
+ hannah ,40, NAN ,Male,Sales,Director,2019.12.01,F,, , Hannah 
+ grace ,35, NAN ,Other,IT,Analyst,01/15/2020,F,email@example.com,555-555-5555, Grace 
+ ivy ,50,55000,Female,Marketing,Analyst,2019.12.01,A,user@domain.com,nan, Ivy 
+ hannah ,thirty,55000,Male,HR,Manager,20-02-2020,B,user@domain.com,nan, Hannah 
+ eve ,nan, NAN ,Male,Finance,Director,03-25-2019,F,email@example.com, , Eve 
+ bob ,thirty,50000,Other,IT,Analyst,20-02-2020,F,user@domain.com,098-765-4321, Bob 
+ eve ,40,SIXTY THOUSAND,Female,Finance,Director,03-25-2019,C,nan,123-456-7890, Eve 
+ hannah ,25,70000,Other,HR,Analyst,2019.12.01,F,user@domain.com,098-765-4321, Hannah 
+ jack ,25,55000,Other,HR,Director,"April 5, 2018",B,,098-765-4321, Jack 
+ ivy ,nan,55000,Other,Sales,Clerk,"April 5, 2018",D,nan,098-765-4321, Ivy 
+ ivy ,25, NAN ,Male,HR,Director,03-25-2019,D,name@company.org,098-765-4321, Ivy 
+ alice ,25,65000,Male,Finance,Director,"April 5, 2018",D,user@domain.com,123-456-7890, Alice 
+ ivy ,nan,70000,Female,Marketing,Manager,2019.12.01,D,user@domain.com,555-555-5555, Ivy 
+ grace ,50,70000,Female,Marketing,Clerk,"April 5, 2018",C,,098-765-4321, Grace 
+ ivy ,50,55000,Other,Sales,Assistant,2019.12.01,F,,nan, Ivy 
+ hannah ,nan,50000,Other,Finance,Manager,20-02-2020,D,email@example.com, , Hannah 
+ alice ,40,65000,Other,Finance,Assistant,2019.12.01,A,email@example.com, , Alice 
+ hannah ,25,70000,Female,HR,Analyst,01/15/2020,D,email@example.com,nan, Hannah 
+ hannah ,25,55000,Male,Finance,Assistant,01/15/2020,F,,098-765-4321, Hannah 
+ charlie ,40,70000,Male,IT,Director,01/15/2020,D,email@example.com,123-456-7890, Charlie 
+ alice ,50,65000,Other,HR,Assistant,03-25-2019,C,email@example.com,555-555-5555, Alice 
+ hannah ,35,65000,Other,IT,Manager,03-25-2019,B,name@company.org, , Hannah 
+ charlie ,35,SIXTY THOUSAND,Other,Sales,Manager,03-25-2019,B,email@example.com,555-555-5555, Charlie 
+ charlie ,35, NAN ,Other,Marketing,Assistant,2019.12.01,F,user@domain.com,123-456-7890, Charlie 
+ alice ,50, NAN ,Female,Sales,Manager,03-25-2019,B,, , Alice 
+ eve ,50,55000,Male,Marketing,Manager,20-02-2020,B,nan,555-555-5555, Eve 
+ jack ,40,65000,Other,Sales,Assistant,01/15/2020,A,name@company.org,123-456-7890, Jack 
+ grace ,25,SIXTY THOUSAND,Female,Finance,Clerk,2019.12.01,F,,555-555-5555, Grace 
+ jack ,40,SIXTY THOUSAND,Other,IT,Clerk,01/15/2020,F,,098-765-4321, Jack 
+ ivy ,40,70000,Other,Marketing,Analyst,03-25-2019,B,user@domain.com,123-456-7890, Ivy 
+ grace ,50,70000,Male,HR,Manager,2019.12.01,B,email@example.com,555-555-5555, Grace 
+ ivy ,35,SIXTY THOUSAND,Other,IT,Assistant,"April 5, 2018",B,user@domain.com,098-765-4321, Ivy 
+ hannah ,thirty,70000,Male,HR,Manager,20-02-2020,C,email@example.com,098-765-4321, Hannah 
+ bob ,25,65000,Male,IT,Director,03-25-2019,D,email@example.com,123-456-7890, Bob 
+ alice ,50,50000,Male,IT,Manager,03-25-2019,C,,nan, Alice 
+ grace ,35,65000,Female,Sales,Manager,20-02-2020,F,email@example.com, , Grace 
+ grace ,thirty,SIXTY THOUSAND,Female,Marketing,Clerk,20-02-2020,A,name@company.org,123-456-7890, Grace 
+ hannah ,thirty,SIXTY THOUSAND,Male,Marketing,Assistant,"April 5, 2018",D,name@company.org,098-765-4321, Hannah 
+ eve ,50,65000,Other,IT,Manager,03-25-2019,A,name@company.org,098-765-4321, Eve 
+ charlie ,nan,70000,Male,Finance,Clerk,03-25-2019,F,,123-456-7890, Charlie 
+ hannah ,25,70000,Other,Finance,Analyst,01/15/2020,F,user@domain.com,nan, Hannah 
+ frank ,thirty, NAN ,Male,HR,Clerk,2019.12.01,A,nan, , Frank 
+ charlie ,50,SIXTY THOUSAND,Other,HR,Clerk,2019.12.01,A,email@example.com,555-555-5555, Charlie 
+ alice ,50,55000,Female,Sales,Clerk,01/15/2020,A,nan,123-456-7890, Alice 
+ charlie ,35, NAN ,Other,IT,Manager,2019.12.01,F,user@domain.com, , Charlie 
+ eve ,nan,70000,Male,HR,Manager,20-02-2020,B,user@domain.com, , Eve 
+ charlie ,25,65000,Female,HR,Analyst,2019.12.01,A,,098-765-4321, Charlie 
+ alice ,40,70000,Other,IT,Director,2019.12.01,D,name@company.org,555-555-5555, Alice 
+ eve ,35,65000,Other,Sales,Director,01/15/2020,F,name@company.org,123-456-7890, Eve 
+ jack ,thirty, NAN ,Other,HR,Director,"April 5, 2018",C,user@domain.com,098-765-4321, Jack 
+ grace ,thirty,SIXTY THOUSAND,Other,Sales,Analyst,2019.12.01,C,,098-765-4321, Grace 
+ grace ,35,70000,Other,Marketing,Director,2019.12.01,D,,nan, Grace 
+ ivy ,50,65000,Female,Sales,Director,"April 5, 2018",B,email@example.com, , Ivy 
+ jack ,thirty,SIXTY THOUSAND,Female,Finance,Clerk,01/15/2020,A,name@company.org,123-456-7890, Jack 
+ jack ,nan,55000,Female,Finance,Manager,"April 5, 2018",F,user@domain.com,123-456-7890, Jack 
+ charlie ,25,65000,Female,Sales,Manager,01/15/2020,A,nan,123-456-7890, Charlie 
+ grace ,nan, NAN ,Male,Finance,Clerk,20-02-2020,F,name@company.org,098-765-4321, Grace 
+ alice ,thirty,55000,Female,Marketing,Clerk,01/15/2020,C,email@example.com,nan, Alice 
+ david ,40,55000,Other,IT,Clerk,20-02-2020,A,,555-555-5555, David 
+ david ,25,50000,Other,Finance,Manager,20-02-2020,D,user@domain.com,098-765-4321, David 
+ eve ,25,70000,Female,Finance,Director,01/15/2020,B,name@company.org,555-555-5555, Eve 
+ grace ,35,65000,Other,Sales,Clerk,03-25-2019,D,nan,nan, Grace 
+ grace ,35,55000,Female,Marketing,Analyst,01/15/2020,B,email@example.com, , Grace 
+ david ,40,50000,Other,IT,Clerk,2019.12.01,A,email@example.com,123-456-7890, David 
+ grace ,50, NAN ,Male,Sales,Assistant,2019.12.01,A,name@company.org,555-555-5555, Grace 
+ charlie ,25,SIXTY THOUSAND,Male,Sales,Clerk,03-25-2019,B,nan,098-765-4321, Charlie 
+ frank ,40,65000,Female,Marketing,Manager,20-02-2020,C,email@example.com,555-555-5555, Frank 
+ bob ,35,55000,Female,IT,Clerk,03-25-2019,F,user@domain.com, , Bob 
+ jack ,35,70000,Female,Marketing,Assistant,2019.12.01,D,email@example.com,123-456-7890, Jack 
+ ivy ,25,50000,Other,IT,Analyst,03-25-2019,D,nan,555-555-5555, Ivy 
+ eve ,nan,55000,Female,Marketing,Director,01/15/2020,D,, , Eve 
+ frank ,thirty,70000,Male,Sales,Clerk,03-25-2019,A,,098-765-4321, Frank 
+ david ,35,55000,Other,Sales,Assistant,20-02-2020,D,name@company.org,nan, David 
+ jack ,50,65000,Female,HR,Assistant,01/15/2020,F,nan,098-765-4321, Jack 
+ grace ,50,65000,Other,Finance,Analyst,"April 5, 2018",F,email@example.com,123-456-7890, Grace 
+ ivy ,35,65000,Other,Marketing,Manager,2019.12.01,B,email@example.com,098-765-4321, Ivy 
+ grace ,nan, NAN ,Female,HR,Clerk,2019.12.01,A,,098-765-4321, Grace 
+ alice ,nan, NAN ,Other,Finance,Assistant,03-25-2019,F,,098-765-4321, Alice 
+ alice ,40,50000,Male,Marketing,Analyst,01/15/2020,C,user@domain.com,098-765-4321, Alice 
+ ivy ,50,65000,Male,IT,Director,"April 5, 2018",A,,123-456-7890, Ivy 
+ ivy ,40,70000,Other,Finance,Assistant,01/15/2020,A,user@domain.com, , Ivy 
+ david ,50,55000,Female,Sales,Analyst,2019.12.01,F,email@example.com,555-555-5555, David 
+ ivy ,thirty,SIXTY THOUSAND,Other,HR,Manager,01/15/2020,C,user@domain.com,nan, Ivy 
+ charlie ,thirty,70000,Male,Finance,Manager,"April 5, 2018",B,user@domain.com,555-555-5555, Charlie 
+ grace ,25, NAN ,Other,Finance,Assistant,03-25-2019,F,name@company.org,555-555-5555, Grace 
+ frank ,40, NAN ,Other,Sales,Assistant,20-02-2020,C,,nan, Frank 
+ hannah ,35,70000,Male,Marketing,Clerk,01/15/2020,A,user@domain.com,123-456-7890, Hannah 
+ ivy ,40, NAN ,Other,IT,Analyst,20-02-2020,C,email@example.com,nan, Ivy 
+ eve ,35,65000,Other,Sales,Assistant,2019.12.01,A,nan,123-456-7890, Eve 
+ alice ,nan,50000,Female,IT,Clerk,03-25-2019,F,user@domain.com,555-555-5555, Alice 
+ charlie ,40,55000,Female,Marketing,Clerk,03-25-2019,F,,123-456-7890, Charlie 
+ jack ,nan,50000,Male,Finance,Assistant,01/15/2020,D,name@company.org, , Jack 
+ hannah ,thirty,55000,Male,IT,Manager,03-25-2019,D,email@example.com,nan, Hannah 
+ frank ,thirty,55000,Male,HR,Analyst,01/15/2020,D,name@company.org, , Frank 
+ hannah ,25,50000,Female,HR,Analyst,01/15/2020,F,nan,555-555-5555, Hannah 
+ ivy ,40,70000,Male,Sales,Manager,20-02-2020,B,user@domain.com,nan, Ivy 
+ david ,nan,55000,Male,Marketing,Assistant,03-25-2019,F,user@domain.com,555-555-5555, David 
+ alice ,35,50000,Male,Sales,Analyst,01/15/2020,C,, , Alice 
+ alice ,thirty,55000,Female,Sales,Assistant,20-02-2020,F,user@domain.com,555-555-5555, Alice 
+ jack ,thirty,SIXTY THOUSAND,Other,Sales,Assistant,"April 5, 2018",F,email@example.com,nan, Jack 
+ david ,35,70000,Male,HR,Clerk,20-02-2020,A,nan,nan, David 
+ grace ,nan,65000,Other,HR,Manager,20-02-2020,A,name@company.org,555-555-5555, Grace 
+ bob ,nan,55000,Male,Sales,Assistant,01/15/2020,A,nan,nan, Bob 
+ charlie ,40,SIXTY THOUSAND,Other,HR,Director,2019.12.01,F,user@domain.com,nan, Charlie 
+ alice ,40,65000,Female,Marketing,Manager,2019.12.01,B,name@company.org,555-555-5555, Alice 
+ eve ,50,65000,Female,Sales,Analyst,2019.12.01,C,, , Eve 
+ alice ,50,55000,Male,HR,Clerk,20-02-2020,C,nan,nan, Alice 
+ hannah ,25,50000,Other,IT,Analyst,01/15/2020,B,name@company.org,nan, Hannah 
+ alice ,thirty,55000,Female,Sales,Analyst,03-25-2019,B,name@company.org,nan, Alice 
+ alice ,40,SIXTY THOUSAND,Male,Sales,Manager,20-02-2020,C,name@company.org,nan, Alice 
+ bob ,nan,65000,Male,Marketing,Analyst,20-02-2020,D,email@example.com,555-555-5555, Bob 
+ bob ,35,55000,Female,Finance,Assistant,01/15/2020,A,nan, , Bob 
+ frank ,nan,50000,Female,Finance,Analyst,"April 5, 2018",A,name@company.org, , Frank 
+ grace ,thirty,55000,Male,Marketing,Clerk,20-02-2020,C,nan,123-456-7890, Grace 
+ eve ,50,70000,Other,Marketing,Clerk,"April 5, 2018",B,name@company.org,nan, Eve 
+ alice ,nan,50000,Other,Marketing,Director,"April 5, 2018",D,,nan, Alice 
+ alice ,25,SIXTY THOUSAND,Other,Finance,Clerk,2019.12.01,C,,123-456-7890, Alice 
+ charlie ,thirty,65000,Male,Marketing,Analyst,01/15/2020,A,, , Charlie 
+ bob ,50,55000,Female,HR,Clerk,"April 5, 2018",F,user@domain.com,098-765-4321, Bob 
+ eve ,35,50000,Male,Sales,Manager,01/15/2020,B,name@company.org,098-765-4321, Eve 
+ jack ,50,70000,Female,Sales,Clerk,2019.12.01,F,user@domain.com, , Jack 
+ frank ,25,50000,Other,IT,Assistant,01/15/2020,C,nan,nan, Frank 
+ grace ,thirty, NAN ,Other,IT,Manager,20-02-2020,A,user@domain.com,098-765-4321, Grace 
+ david ,35,70000,Female,Sales,Director,"April 5, 2018",D,nan,555-555-5555, David 
+ grace ,25,SIXTY THOUSAND,Female,HR,Assistant,01/15/2020,F,nan,555-555-5555, Grace 
+ hannah ,50,65000,Male,Finance,Analyst,03-25-2019,D,nan,123-456-7890, Hannah 
+ alice ,25,SIXTY THOUSAND,Other,Finance,Analyst,01/15/2020,A,user@domain.com, , Alice 
+ frank ,thirty,55000,Male,HR,Analyst,"April 5, 2018",F,name@company.org, , Frank 
+ hannah ,40,50000,Male,Finance,Assistant,2019.12.01,D,user@domain.com,098-765-4321, Hannah 
+ eve ,25, NAN ,Male,Marketing,Assistant,2019.12.01,D,name@company.org,nan, Eve 
+ david ,25,70000,Other,Sales,Assistant,"April 5, 2018",F,name@company.org, , David 
+ bob ,50,70000,Male,Sales,Manager,20-02-2020,A,nan,098-765-4321, Bob 
+ frank ,50,50000,Male,HR,Manager,20-02-2020,D,user@domain.com,098-765-4321, Frank 
+ frank ,35, NAN ,Male,Finance,Analyst,2019.12.01,C,name@company.org, , Frank 
+ alice ,50,50000,Male,IT,Clerk,2019.12.01,F,,098-765-4321, Alice 
+ ivy ,nan,55000,Male,IT,Analyst,"April 5, 2018",B,name@company.org,123-456-7890, Ivy 
+ frank ,thirty,SIXTY THOUSAND,Male,Finance,Director,20-02-2020,B,,123-456-7890, Frank 
+ charlie ,thirty,70000,Other,IT,Manager,2019.12.01,A,user@domain.com, , Charlie 
+ david ,40,55000,Male,HR,Assistant,20-02-2020,C,user@domain.com,nan, David 
+ david ,40,SIXTY THOUSAND,Female,HR,Manager,2019.12.01,D,user@domain.com,123-456-7890, David 
+ charlie ,thirty,55000,Male,Finance,Assistant,01/15/2020,B,name@company.org,123-456-7890, Charlie 
+ jack ,40, NAN ,Male,IT,Director,03-25-2019,A,email@example.com, , Jack 
+ charlie ,35,70000,Other,HR,Director,01/15/2020,C,name@company.org,555-555-5555, Charlie 
+ charlie ,50,50000,Other,HR,Manager,2019.12.01,C,name@company.org,098-765-4321, Charlie 
+ david ,thirty,50000,Female,Marketing,Assistant,03-25-2019,A,nan,123-456-7890, David 
+ grace ,40,SIXTY THOUSAND,Female,Marketing,Director,03-25-2019,A,nan,555-555-5555, Grace 
+ david ,thirty,65000,Other,HR,Analyst,2019.12.01,D,name@company.org,nan, David 
+ ivy ,nan, NAN ,Other,Finance,Analyst,2019.12.01,A,,555-555-5555, Ivy 
+ alice ,25,SIXTY THOUSAND,Male,Sales,Assistant,20-02-2020,D,nan, , Alice 
+ hannah ,50,65000,Other,Sales,Manager,2019.12.01,D,name@company.org,nan, Hannah 
+ grace ,thirty,55000,Female,HR,Director,"April 5, 2018",F,email@example.com,nan, Grace 
+ bob ,25, NAN ,Male,HR,Manager,2019.12.01,C,,555-555-5555, Bob 
+ hannah ,40,55000,Female,HR,Analyst,"April 5, 2018",C,user@domain.com, , Hannah 
+ alice ,25,70000,Male,Finance,Director,2019.12.01,C,name@company.org,123-456-7890, Alice 
+ ivy ,50, NAN ,Other,Marketing,Manager,20-02-2020,F,name@company.org,555-555-5555, Ivy 
+ ivy ,thirty,65000,Female,HR,Clerk,"April 5, 2018",D,,123-456-7890, Ivy 
+ bob ,nan,70000,Male,HR,Assistant,01/15/2020,D,nan,555-555-5555, Bob 
+ grace ,40,50000,Male,IT,Assistant,"April 5, 2018",A,nan,123-456-7890, Grace 
+ jack ,thirty,65000,Other,Finance,Clerk,20-02-2020,F,nan,555-555-5555, Jack 
+ charlie ,50,SIXTY THOUSAND,Other,HR,Analyst,"April 5, 2018",A,user@domain.com,nan, Charlie 
+ grace ,40,50000,Other,IT,Director,2019.12.01,F,,098-765-4321, Grace 
+ jack ,35,50000,Female,Sales,Assistant,2019.12.01,A,,nan, Jack 
+ ivy ,25,SIXTY THOUSAND,Male,HR,Clerk,20-02-2020,B,nan,123-456-7890, Ivy 
+ david ,50, NAN ,Other,HR,Clerk,03-25-2019,C,nan, , David 
+ alice ,35,50000,Female,IT,Analyst,2019.12.01,C,email@example.com,nan, Alice 
+ bob ,thirty,65000,Female,Finance,Analyst,01/15/2020,D,email@example.com,098-765-4321, Bob 
+ alice ,nan,70000,Female,HR,Manager,20-02-2020,B,name@company.org,123-456-7890, Alice 
+ eve ,40,50000,Other,Sales,Assistant,"April 5, 2018",C,name@company.org,nan, Eve 
+ eve ,25,65000,Other,HR,Manager,"April 5, 2018",D,,555-555-5555, Eve 
+ grace ,40,55000,Male,Sales,Clerk,01/15/2020,B,, , Grace 
+ ivy ,thirty,65000,Male,Marketing,Director,2019.12.01,C,user@domain.com,123-456-7890, Ivy 
+ ivy ,40,70000,Other,Marketing,Director,20-02-2020,A,user@domain.com,nan, Ivy 
+ charlie ,25,65000,Female,Sales,Analyst,01/15/2020,F,email@example.com,123-456-7890, Charlie 
+ charlie ,thirty,SIXTY THOUSAND,Female,Finance,Director,2019.12.01,B,name@company.org,555-555-5555, Charlie 
+ charlie ,40,70000,Female,HR,Director,20-02-2020,D,email@example.com,098-765-4321, Charlie 
+ david ,nan, NAN ,Male,HR,Director,"April 5, 2018",B,email@example.com,nan, David 
+ hannah ,50,55000,Female,Marketing,Clerk,20-02-2020,D,name@company.org,123-456-7890, Hannah 
+ frank ,thirty,SIXTY THOUSAND,Male,Sales,Director,03-25-2019,B,user@domain.com,123-456-7890, Frank 
+ hannah ,50, NAN ,Male,HR,Director,20-02-2020,D,name@company.org,123-456-7890, Hannah 
+ alice ,thirty,65000,Female,HR,Director,03-25-2019,C,nan,098-765-4321, Alice 
+ hannah ,nan,70000,Female,Finance,Manager,20-02-2020,A,nan,123-456-7890, Hannah 
+ david ,50,55000,Other,IT,Clerk,03-25-2019,C,nan, , David 
+ alice ,35,SIXTY THOUSAND,Other,Marketing,Analyst,"April 5, 2018",A,, , Alice 
+ hannah ,25, NAN ,Female,Marketing,Manager,2019.12.01,C,user@domain.com,123-456-7890, Hannah 
+ david ,35, NAN ,Male,IT,Assistant,03-25-2019,C,user@domain.com, , David 
+ frank ,40,55000,Male,HR,Clerk,03-25-2019,B,,nan, Frank 
+ hannah ,nan,65000,Male,Finance,Clerk,"April 5, 2018",F,email@example.com, , Hannah 
+ david ,35,55000,Male,Finance,Assistant,03-25-2019,D,nan,123-456-7890, David 
+ charlie ,thirty, NAN ,Male,Marketing,Assistant,01/15/2020,D,nan,555-555-5555, Charlie 
+ ivy ,40,50000,Other,Finance,Assistant,"April 5, 2018",D,email@example.com,nan, Ivy 
+ charlie ,40,SIXTY THOUSAND,Female,IT,Analyst,01/15/2020,A,name@company.org,098-765-4321, Charlie 
+ ivy ,35,55000,Other,HR,Director,"April 5, 2018",D,name@company.org,123-456-7890, Ivy 
+ bob ,35, NAN ,Male,IT,Clerk,03-25-2019,D,user@domain.com,098-765-4321, Bob 
+ bob ,nan,65000,Male,Sales,Director,01/15/2020,B,,555-555-5555, Bob 
+ bob ,25, NAN ,Male,Marketing,Director,03-25-2019,C,user@domain.com,098-765-4321, Bob 
+ frank ,35,65000,Male,Finance,Assistant,"April 5, 2018",D,name@company.org,123-456-7890, Frank 
+ charlie ,35,55000,Female,Sales,Analyst,03-25-2019,F,email@example.com,123-456-7890, Charlie 
+ ivy ,50,65000,Male,Finance,Manager,01/15/2020,D,user@domain.com,555-555-5555, Ivy 
+ david ,thirty,70000,Female,HR,Analyst,01/15/2020,A,nan,123-456-7890, David 
+ alice ,50,70000,Male,HR,Director,03-25-2019,A,nan,555-555-5555, Alice 
+ david ,50,70000,Female,HR,Analyst,20-02-2020,A,email@example.com,555-555-5555, David 
+ alice ,40,50000,Other,Finance,Assistant,"April 5, 2018",D,name@company.org,123-456-7890, Alice 
+ eve ,25,55000,Male,Sales,Manager,"April 5, 2018",B,nan, , Eve 
+ david ,thirty, NAN ,Female,HR,Assistant,03-25-2019,F,nan,555-555-5555, David 
+ hannah ,nan, NAN ,Other,Sales,Manager,20-02-2020,D,,123-456-7890, Hannah 
+ hannah ,nan,50000,Male,Finance,Director,01/15/2020,B,user@domain.com, , Hannah 
+ grace ,35,65000,Male,Sales,Manager,2019.12.01,B,name@company.org,555-555-5555, Grace 
+ charlie ,35,50000,Male,Finance,Manager,2019.12.01,D,user@domain.com, , Charlie 
+ alice ,nan,65000,Female,Finance,Manager,03-25-2019,D,name@company.org,nan, Alice 
+ alice ,35,65000,Female,Marketing,Analyst,20-02-2020,B,nan,nan, Alice 
+ charlie ,25,SIXTY THOUSAND,Other,Finance,Analyst,20-02-2020,B,, , Charlie 
+ frank ,50, NAN ,Female,Finance,Director,"April 5, 2018",B,user@domain.com,555-555-5555, Frank 
+ grace ,35,70000,Female,IT,Manager,01/15/2020,D,nan,123-456-7890, Grace 
+ frank ,40,65000,Male,HR,Clerk,20-02-2020,B,name@company.org,098-765-4321, Frank 
+ frank ,35,SIXTY THOUSAND,Male,Marketing,Director,2019.12.01,A,user@domain.com,123-456-7890, Frank 
+ frank ,thirty, NAN ,Male,Marketing,Manager,01/15/2020,D,user@domain.com,098-765-4321, Frank 
+ charlie ,25,70000,Male,Marketing,Manager,01/15/2020,A,nan,098-765-4321, Charlie 
+ frank ,thirty,65000,Male,IT,Analyst,03-25-2019,C,user@domain.com,555-555-5555, Frank 
+ hannah ,thirty,65000,Male,Finance,Director,20-02-2020,D,, , Hannah 
+ bob ,40,50000,Male,HR,Manager,03-25-2019,C,,123-456-7890, Bob 
+ eve ,25,50000,Other,Sales,Manager,20-02-2020,B,nan, , Eve 
+ alice ,25, NAN ,Other,Finance,Director,"April 5, 2018",B,name@company.org,nan, Alice 
+ alice ,25,70000,Other,IT,Clerk,03-25-2019,F,nan,555-555-5555, Alice 
+ eve ,25,65000,Other,Finance,Director,03-25-2019,B,,555-555-5555, Eve 
+ charlie ,25, NAN ,Male,Finance,Director,2019.12.01,C,email@example.com,nan, Charlie 
+ david ,40, NAN ,Other,IT,Clerk,03-25-2019,B,email@example.com,123-456-7890, David 
+ charlie ,35,55000,Male,Marketing,Director,20-02-2020,D,user@domain.com,nan, Charlie 
+ alice ,thirty,50000,Other,Marketing,Manager,2019.12.01,B,user@domain.com,123-456-7890, Alice 
+ alice ,25,70000,Female,HR,Director,03-25-2019,F,email@example.com,098-765-4321, Alice 
+ eve ,35,65000,Other,HR,Clerk,03-25-2019,B,,555-555-5555, Eve 
+ frank ,35, NAN ,Other,Marketing,Assistant,"April 5, 2018",C,user@domain.com,123-456-7890, Frank 
+ charlie ,thirty,65000,Male,Sales,Director,03-25-2019,C,nan, , Charlie 
+ ivy ,40,55000,Other,Finance,Analyst,01/15/2020,B,nan, , Ivy 
+ eve ,nan,70000,Female,Sales,Manager,2019.12.01,C,,555-555-5555, Eve 
+ hannah ,nan, NAN ,Male,Finance,Manager,01/15/2020,C,user@domain.com,nan, Hannah 
+ alice ,35,65000,Male,Marketing,Analyst,2019.12.01,F,nan,nan, Alice 
+ eve ,50,50000,Other,HR,Analyst,"April 5, 2018",D,user@domain.com,123-456-7890, Eve 
+ charlie ,50,55000,Male,HR,Director,03-25-2019,F,user@domain.com,nan, Charlie 
+ alice ,thirty,70000,Male,Sales,Analyst,03-25-2019,A,nan,555-555-5555, Alice 
+ david ,nan,55000,Male,HR,Assistant,03-25-2019,F,email@example.com,123-456-7890, David 
+ eve ,35,50000,Male,Marketing,Clerk,2019.12.01,B,nan,098-765-4321, Eve 
+ grace ,40,70000,Male,Sales,Analyst,03-25-2019,D,,nan, Grace 
+ alice ,nan,55000,Male,Finance,Analyst,01/15/2020,B,name@company.org,nan, Alice 
+ charlie ,35,SIXTY THOUSAND,Female,HR,Assistant,03-25-2019,A,nan,123-456-7890, Charlie 
+ bob ,35,50000,Other,IT,Manager,"April 5, 2018",D,user@domain.com, , Bob 
+ ivy ,25,50000,Female,HR,Manager,01/15/2020,C,user@domain.com,nan, Ivy 
+ jack ,40,50000,Male,Finance,Director,03-25-2019,F,nan,555-555-5555, Jack 
+ frank ,25,SIXTY THOUSAND,Male,Sales,Assistant,03-25-2019,B,name@company.org,nan, Frank 
+ jack ,thirty,SIXTY THOUSAND,Other,Finance,Clerk,20-02-2020,A,nan,098-765-4321, Jack 
+ charlie ,25,65000,Female,IT,Clerk,2019.12.01,C,name@company.org,nan, Charlie 
+ hannah ,25, NAN ,Other,Marketing,Assistant,01/15/2020,F,name@company.org, , Hannah 
+ hannah ,nan,55000,Female,HR,Clerk,20-02-2020,C,,nan, Hannah 
+ bob ,50,65000,Male,Sales,Manager,"April 5, 2018",F,user@domain.com,123-456-7890, Bob 
+ frank ,35,55000,Other,Marketing,Clerk,2019.12.01,D,user@domain.com,nan, Frank 
+ grace ,40, NAN ,Other,Finance,Clerk,01/15/2020,C,name@company.org, , Grace 
+ bob ,25,SIXTY THOUSAND,Male,Sales,Assistant,03-25-2019,C,user@domain.com,123-456-7890, Bob 
+ jack ,40, NAN ,Other,Marketing,Assistant,01/15/2020,C,email@example.com,555-555-5555, Jack 
+ bob ,50,SIXTY THOUSAND,Female,Sales,Clerk,03-25-2019,D,name@company.org,123-456-7890, Bob 
+ jack ,50, NAN ,Female,IT,Analyst,2019.12.01,A,user@domain.com,098-765-4321, Jack 
+ alice ,25,65000,Female,IT,Assistant,03-25-2019,F,email@example.com,123-456-7890, Alice 
+ hannah ,thirty,70000,Female,HR,Director,"April 5, 2018",C,,555-555-5555, Hannah 
+ alice ,25,65000,Male,HR,Director,03-25-2019,D,user@domain.com,nan, Alice 
+ ivy ,nan,55000,Other,IT,Manager,"April 5, 2018",A,email@example.com,123-456-7890, Ivy 
+ frank ,35,65000,Female,Sales,Clerk,2019.12.01,F,nan,123-456-7890, Frank 
+ grace ,thirty,50000,Male,IT,Analyst,2019.12.01,D,nan,123-456-7890, Grace 
+ jack ,25,55000,Other,HR,Manager,01/15/2020,F,email@example.com,123-456-7890, Jack 
+ grace ,40, NAN ,Other,IT,Clerk,"April 5, 2018",C,name@company.org,555-555-5555, Grace 
+ jack ,thirty,55000,Male,IT,Assistant,"April 5, 2018",A,name@company.org, , Jack 
+ charlie ,thirty,70000,Male,Sales,Director,20-02-2020,D,user@domain.com, , Charlie 
+ bob ,25,SIXTY THOUSAND,Female,Marketing,Analyst,20-02-2020,A,nan,123-456-7890, Bob 
+ ivy ,thirty, NAN ,Other,HR,Director,20-02-2020,C,name@company.org,555-555-5555, Ivy 
+ hannah ,40,55000,Other,Sales,Assistant,03-25-2019,A,name@company.org,555-555-5555, Hannah 
+ jack ,50, NAN ,Male,IT,Clerk,20-02-2020,A,nan,123-456-7890, Jack 
+ grace ,thirty, NAN ,Other,IT,Assistant,"April 5, 2018",B,,098-765-4321, Grace 
+ ivy ,50, NAN ,Female,Marketing,Assistant,03-25-2019,A,name@company.org,123-456-7890, Ivy 
+ david ,40,SIXTY THOUSAND,Other,HR,Director,2019.12.01,F,email@example.com,098-765-4321, David 
+ david ,25,65000,Male,HR,Analyst,01/15/2020,D,user@domain.com,123-456-7890, David 
+ alice ,35, NAN ,Male,Finance,Assistant,20-02-2020,B,name@company.org,098-765-4321, Alice 
+ hannah ,thirty,50000,Female,HR,Director,2019.12.01,D,name@company.org,098-765-4321, Hannah 
+ charlie ,35,70000,Female,Marketing,Analyst,"April 5, 2018",D,,123-456-7890, Charlie 
+ grace ,40,SIXTY THOUSAND,Other,Finance,Clerk,01/15/2020,C,email@example.com,098-765-4321, Grace 
+ bob ,thirty,55000,Other,Finance,Clerk,2019.12.01,C,user@domain.com,nan, Bob 
+ bob ,50,SIXTY THOUSAND,Male,IT,Manager,01/15/2020,B,name@company.org, , Bob 
+ grace ,nan,55000,Female,IT,Director,20-02-2020,C,user@domain.com,555-555-5555, Grace 
+ frank ,35,SIXTY THOUSAND,Female,HR,Analyst,"April 5, 2018",C,nan,098-765-4321, Frank 
+ charlie ,thirty,55000,Female,Finance,Assistant,01/15/2020,C,name@company.org,098-765-4321, Charlie 
+ ivy ,35, NAN ,Other,IT,Clerk,2019.12.01,D,name@company.org,555-555-5555, Ivy 
+ jack ,thirty,65000,Female,Marketing,Analyst,20-02-2020,B,nan,098-765-4321, Jack 
+ frank ,25,55000,Male,IT,Director,20-02-2020,D,,555-555-5555, Frank 
+ jack ,50,55000,Male,IT,Manager,2019.12.01,F,name@company.org,123-456-7890, Jack 
+ jack ,35,50000,Other,Finance,Clerk,2019.12.01,D,user@domain.com,nan, Jack 
+ frank ,nan,55000,Other,Finance,Analyst,01/15/2020,F,email@example.com,nan, Frank 
+ alice ,nan,50000,Female,Sales,Analyst,03-25-2019,A,user@domain.com, , Alice 
+ david ,40,70000,Other,Marketing,Analyst,20-02-2020,A,,098-765-4321, David 
+ jack ,thirty, NAN ,Male,Finance,Director,01/15/2020,F,email@example.com, , Jack 
+ frank ,35,50000,Female,HR,Director,2019.12.01,F,user@domain.com,123-456-7890, Frank 
+ frank ,40,65000,Male,Marketing,Director,01/15/2020,D,user@domain.com,nan, Frank 
+ eve ,35, NAN ,Female,Marketing,Assistant,2019.12.01,F,nan,123-456-7890, Eve 
+ alice ,thirty,50000,Other,Finance,Analyst,"April 5, 2018",B,,123-456-7890, Alice 
+ hannah ,nan, NAN ,Female,Marketing,Clerk,2019.12.01,A,nan,098-765-4321, Hannah 
+ eve ,25, NAN ,Female,Finance,Director,2019.12.01,A,email@example.com,123-456-7890, Eve 
+ eve ,nan, NAN ,Male,IT,Director,2019.12.01,F,nan,nan, Eve 
+ grace ,40,70000,Male,Sales,Analyst,03-25-2019,C,, , Grace 
+ david ,50,65000,Female,IT,Director,2019.12.01,C,name@company.org,nan, David 
+ frank ,25,SIXTY THOUSAND,Other,Finance,Assistant,20-02-2020,F,name@company.org,098-765-4321, Frank 
+ david ,40,SIXTY THOUSAND,Other,Finance,Assistant,20-02-2020,B,email@example.com,nan, David 
+ charlie ,thirty,50000,Male,IT,Director,01/15/2020,C,name@company.org,555-555-5555, Charlie 
+ grace ,25, NAN ,Other,HR,Analyst,03-25-2019,F,nan, , Grace 
+ hannah ,40,50000,Male,HR,Analyst,01/15/2020,B,email@example.com,555-555-5555, Hannah 
+ david ,thirty,70000,Other,HR,Analyst,20-02-2020,B,,555-555-5555, David 
+ bob ,nan,70000,Female,Finance,Manager,20-02-2020,D,email@example.com,098-765-4321, Bob 
+ jack ,50,55000,Male,Marketing,Director,"April 5, 2018",B,email@example.com,123-456-7890, Jack 
+ charlie ,thirty,70000,Male,Finance,Analyst,2019.12.01,C,user@domain.com,555-555-5555, Charlie 
+ alice ,35,55000,Female,Marketing,Assistant,20-02-2020,C,user@domain.com,nan, Alice 
+ hannah ,thirty,65000,Male,IT,Clerk,01/15/2020,F,email@example.com,123-456-7890, Hannah 
+ charlie ,thirty,50000,Other,Sales,Clerk,01/15/2020,F,name@company.org,nan, Charlie 
+ jack ,50,65000,Other,Marketing,Analyst,2019.12.01,B,user@domain.com,nan, Jack 
+ grace ,35,70000,Male,HR,Clerk,2019.12.01,A,,123-456-7890, Grace 
+ jack ,40,65000,Other,Finance,Clerk,"April 5, 2018",D,nan,123-456-7890, Jack 
+ eve ,40,65000,Male,IT,Manager,03-25-2019,A,user@domain.com,nan, Eve 
+ jack ,thirty,65000,Female,HR,Assistant,01/15/2020,B,email@example.com,098-765-4321, Jack 
+ eve ,35,70000,Male,IT,Assistant,2019.12.01,B,name@company.org, , Eve 
+ grace ,35, NAN ,Female,Sales,Manager,01/15/2020,A,nan, , Grace 
+ ivy ,50,65000,Other,Finance,Manager,2019.12.01,D,user@domain.com,098-765-4321, Ivy 
+ eve ,nan,55000,Female,Finance,Clerk,20-02-2020,A,name@company.org,123-456-7890, Eve 
+ alice ,40,70000,Other,Sales,Director,01/15/2020,F,name@company.org,nan, Alice 
+ jack ,50,65000,Male,Finance,Clerk,20-02-2020,C,name@company.org, , Jack 
+ jack ,25, NAN ,Other,Marketing,Manager,01/15/2020,F,email@example.com,nan, Jack 
+ alice ,40,70000,Male,IT,Assistant,03-25-2019,C,,098-765-4321, Alice 
+ bob ,50,SIXTY THOUSAND,Male,HR,Clerk,"April 5, 2018",B,name@company.org,nan, Bob 
+ frank ,40, NAN ,Female,Sales,Director,20-02-2020,D,nan,098-765-4321, Frank 
+ ivy ,nan,55000,Female,Marketing,Clerk,2019.12.01,A,user@domain.com,123-456-7890, Ivy 
+ hannah ,25,65000,Female,HR,Analyst,03-25-2019,D,nan,098-765-4321, Hannah 
+ eve ,nan,SIXTY THOUSAND,Female,HR,Clerk,01/15/2020,A,email@example.com,098-765-4321, Eve 
+ alice ,25,SIXTY THOUSAND,Other,Sales,Manager,20-02-2020,F,email@example.com, , Alice 
+ grace ,thirty,70000,Other,Marketing,Assistant,01/15/2020,F,nan,nan, Grace 
+ eve ,50,SIXTY THOUSAND,Other,HR,Assistant,01/15/2020,A,, , Eve 
+ frank ,25,55000,Male,HR,Manager,01/15/2020,D,email@example.com,555-555-5555, Frank 
+ grace ,nan,55000,Other,Marketing,Analyst,"April 5, 2018",A,email@example.com,098-765-4321, Grace 
+ charlie ,40,50000,Other,Finance,Manager,"April 5, 2018",B,nan,555-555-5555, Charlie 
+ jack ,25,55000,Other,HR,Clerk,2019.12.01,F,email@example.com, , Jack 
+ charlie ,50, NAN ,Female,IT,Manager,20-02-2020,B,,nan, Charlie 
+ eve ,25,SIXTY THOUSAND,Other,Marketing,Manager,03-25-2019,F,, , Eve 
+ frank ,35,55000,Male,HR,Analyst,03-25-2019,F,,nan, Frank 
+ ivy ,40,70000,Female,Sales,Clerk,03-25-2019,C,user@domain.com,nan, Ivy 
+ eve ,50,50000,Male,IT,Director,01/15/2020,B,,123-456-7890, Eve 
+ alice ,50,SIXTY THOUSAND,Other,HR,Director,"April 5, 2018",B,,098-765-4321, Alice 
+ david ,thirty,50000,Female,IT,Assistant,20-02-2020,C,user@domain.com, , David 
+ eve ,nan,SIXTY THOUSAND,Male,IT,Manager,01/15/2020,D,name@company.org,nan, Eve 
+ jack ,thirty,70000,Other,Finance,Assistant,"April 5, 2018",B,email@example.com, , Jack 
+ jack ,50,50000,Male,IT,Analyst,"April 5, 2018",A,, , Jack 
+ eve ,40,65000,Male,Finance,Director,20-02-2020,C,email@example.com,nan, Eve 
+ grace ,25, NAN ,Male,Marketing,Manager,20-02-2020,B,nan,555-555-5555, Grace 
+ david ,25, NAN ,Other,Finance,Analyst,20-02-2020,D,email@example.com,098-765-4321, David 
+ alice ,40,SIXTY THOUSAND,Other,Sales,Analyst,01/15/2020,B,user@domain.com,098-765-4321, Alice 
+ eve ,50,65000,Male,HR,Manager,2019.12.01,F,email@example.com,123-456-7890, Eve 
+ grace ,25,50000,Female,Marketing,Analyst,20-02-2020,A,email@example.com,123-456-7890, Grace 
+ jack ,25,65000,Female,Marketing,Manager,2019.12.01,C,email@example.com,123-456-7890, Jack 
+ jack ,25,65000,Other,Sales,Manager,01/15/2020,F,name@company.org,098-765-4321, Jack 
+ frank ,nan,50000,Other,Finance,Clerk,2019.12.01,D,name@company.org,555-555-5555, Frank 
+ eve ,nan,70000,Other,HR,Assistant,03-25-2019,F,nan,098-765-4321, Eve 
+ david ,35,65000,Other,Finance,Analyst,2019.12.01,F,user@domain.com,098-765-4321, David 
+ bob ,thirty,65000,Other,IT,Analyst,20-02-2020,D,email@example.com,098-765-4321, Bob 
+ david ,40,70000,Female,Finance,Clerk,01/15/2020,F,email@example.com,098-765-4321, David 
+ jack ,40,65000,Other,Marketing,Clerk,20-02-2020,C,email@example.com,555-555-5555, Jack 
+ jack ,40,65000,Male,HR,Clerk,03-25-2019,B,email@example.com,123-456-7890, Jack 
+ charlie ,35,65000,Male,Finance,Director,20-02-2020,F,name@company.org, , Charlie 
+ jack ,nan, NAN ,Female,HR,Director,20-02-2020,C,nan,123-456-7890, Jack 
+ alice ,50,55000,Male,HR,Director,20-02-2020,B,,123-456-7890, Alice 
+ hannah ,50,70000,Female,IT,Manager,"April 5, 2018",B,user@domain.com, , Hannah 
+ eve ,35,65000,Female,IT,Analyst,03-25-2019,F,email@example.com,098-765-4321, Eve 
+ david ,50, NAN ,Male,Marketing,Assistant,20-02-2020,C,nan,555-555-5555, David 
+ hannah ,40,70000,Other,Sales,Manager,20-02-2020,F,,555-555-5555, Hannah 
+ grace ,thirty,SIXTY THOUSAND,Male,HR,Analyst,20-02-2020,D,nan,123-456-7890, Grace 
+ bob ,25,SIXTY THOUSAND,Male,Sales,Analyst,01/15/2020,B,name@company.org, , Bob 
+ alice ,nan,65000,Female,Marketing,Clerk,"April 5, 2018",F,,nan, Alice 
+ david ,nan, NAN ,Male,HR,Clerk,01/15/2020,B,nan,098-765-4321, David 
+ hannah ,35, NAN ,Female,HR,Manager,"April 5, 2018",C,name@company.org,123-456-7890, Hannah 
+ bob ,nan,70000,Other,Sales,Clerk,20-02-2020,A,nan,555-555-5555, Bob 
+ charlie ,40,70000,Other,Finance,Analyst,03-25-2019,F,nan, , Charlie 
+ alice ,50, NAN ,Other,IT,Clerk,2019.12.01,F,, , Alice 
+ alice ,40,70000,Male,Finance,Director,2019.12.01,B,name@company.org,123-456-7890, Alice 
+ charlie ,35, NAN ,Female,Sales,Clerk,20-02-2020,C,email@example.com,nan, Charlie 
+ eve ,40,55000,Other,IT,Analyst,01/15/2020,D,user@domain.com,555-555-5555, Eve 
+ charlie ,50, NAN ,Female,Finance,Manager,03-25-2019,C,,123-456-7890, Charlie 
+ alice ,thirty,SIXTY THOUSAND,Female,IT,Assistant,"April 5, 2018",F,name@company.org,nan, Alice 
+ alice ,35,70000,Other,HR,Clerk,20-02-2020,D,nan, , Alice 
+ hannah ,thirty, NAN ,Other,Finance,Analyst,03-25-2019,C,name@company.org,098-765-4321, Hannah 
+ jack ,25, NAN ,Female,IT,Assistant,03-25-2019,A,user@domain.com,555-555-5555, Jack 
+ bob ,thirty,70000,Other,IT,Assistant,"April 5, 2018",B,user@domain.com,555-555-5555, Bob 
+ charlie ,25,55000,Female,IT,Director,03-25-2019,C,email@example.com,nan, Charlie 
+ bob ,25,55000,Female,Finance,Assistant,01/15/2020,C,email@example.com,123-456-7890, Bob 
+ charlie ,thirty,70000,Other,Marketing,Analyst,01/15/2020,A,user@domain.com, , Charlie 
+ grace ,35,50000,Male,Finance,Analyst,01/15/2020,F,,nan, Grace 
+ alice ,50,70000,Other,Sales,Clerk,03-25-2019,B,,098-765-4321, Alice 
+ jack ,40,70000,Male,Finance,Clerk,01/15/2020,C,nan,098-765-4321, Jack 
+ hannah ,40,55000,Female,IT,Clerk,"April 5, 2018",D,email@example.com,098-765-4321, Hannah 
+ jack ,50,55000,Female,HR,Assistant,03-25-2019,C,nan,nan, Jack 
+ jack ,25,70000,Male,Finance,Assistant,2019.12.01,B,email@example.com, , Jack 
+ jack ,25,70000,Female,Finance,Director,03-25-2019,C,user@domain.com,555-555-5555, Jack 
+ bob ,35,70000,Male,IT,Clerk,"April 5, 2018",A,,123-456-7890, Bob 
+ charlie ,nan,55000,Male,HR,Manager,2019.12.01,C,,555-555-5555, Charlie 
+ ivy ,thirty,70000,Female,HR,Director,03-25-2019,C,user@domain.com, , Ivy 
+ grace ,25,70000,Male,Sales,Manager,01/15/2020,D,nan,555-555-5555, Grace 
+ david ,40,65000,Other,Finance,Assistant,20-02-2020,A,nan,nan, David 
+ jack ,35,50000,Other,HR,Director,20-02-2020,A,name@company.org,098-765-4321, Jack 
+ eve ,thirty,SIXTY THOUSAND,Female,HR,Director,01/15/2020,C,email@example.com, , Eve 
+ bob ,35,50000,Female,Marketing,Analyst,20-02-2020,D,nan, , Bob 
+ hannah ,thirty,65000,Male,Marketing,Assistant,20-02-2020,C,user@domain.com,555-555-5555, Hannah 
+ david ,thirty,SIXTY THOUSAND,Male,HR,Assistant,01/15/2020,C,nan,nan, David 
+ ivy ,50,70000,Male,Sales,Director,01/15/2020,B,,555-555-5555, Ivy 
+ eve ,25,65000,Male,HR,Assistant,03-25-2019,B,email@example.com,555-555-5555, Eve 
+ ivy ,35,70000,Other,IT,Director,03-25-2019,D,name@company.org, , Ivy 
+ david ,35,55000,Other,Finance,Analyst,01/15/2020,F,email@example.com,555-555-5555, David 
+ jack ,50, NAN ,Female,Sales,Director,"April 5, 2018",B,,098-765-4321, Jack 
+ eve ,40,65000,Male,IT,Assistant,20-02-2020,F,,555-555-5555, Eve 
+ ivy ,40,55000,Male,Sales,Assistant,03-25-2019,A,,098-765-4321, Ivy 
+ hannah ,25,65000,Female,IT,Director,20-02-2020,B,, , Hannah 
+ charlie ,25,65000,Male,Finance,Director,2019.12.01,B,user@domain.com,nan, Charlie 
+ alice ,nan,55000,Male,Finance,Director,01/15/2020,D,name@company.org,098-765-4321, Alice 
+ charlie ,50,SIXTY THOUSAND,Male,Marketing,Clerk,"April 5, 2018",F,,nan, Charlie 
+ david ,40,50000,Male,IT,Assistant,2019.12.01,B,,nan, David 
+ bob ,thirty,70000,Male,Marketing,Assistant,2019.12.01,B,nan,098-765-4321, Bob 
+ alice ,35,65000,Female,IT,Clerk,2019.12.01,D,name@company.org, , Alice 
+ grace ,25,70000,Male,Marketing,Director,01/15/2020,D,email@example.com,123-456-7890, Grace 
+ hannah ,35, NAN ,Female,Finance,Analyst,03-25-2019,F,name@company.org,nan, Hannah 
+ grace ,35,55000,Male,Sales,Director,01/15/2020,A,name@company.org,nan, Grace 
+ eve ,nan,70000,Other,Marketing,Director,03-25-2019,A,name@company.org, , Eve 
+ alice ,40,55000,Other,IT,Clerk,2019.12.01,C,, , Alice 
+ grace ,25,70000,Other,IT,Assistant,2019.12.01,B,,555-555-5555, Grace 
+ grace ,35,50000,Other,Finance,Director,"April 5, 2018",F,user@domain.com, , Grace 
+ ivy ,25,50000,Female,IT,Assistant,03-25-2019,B,email@example.com,nan, Ivy 
+ charlie ,thirty,50000,Female,HR,Manager,2019.12.01,F,nan,098-765-4321, Charlie 
+ ivy ,nan,50000,Male,Sales,Assistant,20-02-2020,F,name@company.org,123-456-7890, Ivy 
+ alice ,thirty,50000,Other,Marketing,Analyst,"April 5, 2018",F,email@example.com,555-555-5555, Alice 
+ alice ,25,50000,Female,Sales,Analyst,01/15/2020,B,email@example.com,098-765-4321, Alice 
+ david ,25,55000,Male,Finance,Director,"April 5, 2018",D,user@domain.com,123-456-7890, David 
+ ivy ,40,65000,Male,Marketing,Assistant,20-02-2020,B,nan,123-456-7890, Ivy 
+ frank ,35,70000,Female,Marketing,Director,03-25-2019,F,name@company.org,123-456-7890, Frank 
+ charlie ,35,50000,Other,HR,Clerk,01/15/2020,C,nan,098-765-4321, Charlie 
+ alice ,thirty,55000,Male,Finance,Analyst,01/15/2020,A,user@domain.com,555-555-5555, Alice 
+ david ,nan,55000,Other,IT,Director,03-25-2019,F,,555-555-5555, David 
+ ivy ,50,55000,Other,HR,Clerk,"April 5, 2018",C,email@example.com,123-456-7890, Ivy 
+ charlie ,35,65000,Other,HR,Director,2019.12.01,D,name@company.org,098-765-4321, Charlie 
+ ivy ,40,70000,Male,Sales,Assistant,"April 5, 2018",F,,123-456-7890, Ivy 
+ grace ,thirty,65000,Other,Sales,Assistant,20-02-2020,C,user@domain.com, , Grace 
+ david ,thirty,SIXTY THOUSAND,Male,Sales,Assistant,2019.12.01,F,nan,555-555-5555, David 
+ charlie ,50,55000,Other,HR,Assistant,"April 5, 2018",B,email@example.com,nan, Charlie 
+ jack ,40,SIXTY THOUSAND,Male,IT,Manager,03-25-2019,C,name@company.org,123-456-7890, Jack 
+ eve ,nan, NAN ,Other,Marketing,Clerk,20-02-2020,B,, , Eve 
+ eve ,40,50000,Female,Sales,Clerk,20-02-2020,B,,555-555-5555, Eve 
+ charlie ,nan,50000,Other,IT,Assistant,20-02-2020,C,email@example.com,098-765-4321, Charlie 
+ ivy ,40,65000,Other,Finance,Manager,2019.12.01,A,nan,555-555-5555, Ivy 
+ david ,40,70000,Male,Sales,Assistant,01/15/2020,C,user@domain.com,098-765-4321, David 
+ eve ,25,SIXTY THOUSAND,Male,Marketing,Manager,2019.12.01,A,nan,098-765-4321, Eve 
+ david ,thirty,70000,Other,Finance,Assistant,"April 5, 2018",F,nan,123-456-7890, David 
+ eve ,40,65000,Female,Finance,Analyst,01/15/2020,F,nan,123-456-7890, Eve 
+ grace ,50,50000,Female,Marketing,Analyst,"April 5, 2018",C,email@example.com,555-555-5555, Grace 
+ ivy ,40,70000,Male,Sales,Director,01/15/2020,F,email@example.com, , Ivy 
+ grace ,35,70000,Female,HR,Assistant,2019.12.01,D,user@domain.com,555-555-5555, Grace 
+ eve ,thirty,50000,Other,Marketing,Clerk,20-02-2020,B,nan,nan, Eve 
+ jack ,35,SIXTY THOUSAND,Male,Marketing,Director,03-25-2019,B,email@example.com,098-765-4321, Jack 
+ jack ,thirty,50000,Other,Marketing,Analyst,20-02-2020,A,user@domain.com,098-765-4321, Jack 
+ grace ,35,70000,Male,Finance,Assistant,2019.12.01,F,user@domain.com,123-456-7890, Grace 
+ jack ,40,SIXTY THOUSAND,Male,IT,Director,01/15/2020,A,nan, , Jack 
+ eve ,40,SIXTY THOUSAND,Male,HR,Assistant,20-02-2020,B,name@company.org,123-456-7890, Eve 
+ charlie ,25,50000,Male,Sales,Analyst,2019.12.01,B,nan,nan, Charlie 
+ grace ,50,70000,Female,Sales,Director,"April 5, 2018",F,name@company.org,555-555-5555, Grace 
+ bob ,35,65000,Other,IT,Analyst,03-25-2019,D,user@domain.com,555-555-5555, Bob 
+ ivy ,nan,70000,Other,Marketing,Manager,20-02-2020,D,email@example.com, , Ivy 
+ jack ,25,55000,Other,HR,Analyst,01/15/2020,F,,123-456-7890, Jack 
+ jack ,35, NAN ,Male,Sales,Assistant,"April 5, 2018",F,user@domain.com,123-456-7890, Jack 
+ alice ,35,65000,Female,Sales,Clerk,2019.12.01,A,email@example.com,nan, Alice 
+ frank ,25,SIXTY THOUSAND,Other,Marketing,Analyst,03-25-2019,F,user@domain.com,555-555-5555, Frank 
+ grace ,40,65000,Female,IT,Clerk,01/15/2020,D,nan,123-456-7890, Grace 
+ hannah ,35,SIXTY THOUSAND,Male,HR,Manager,2019.12.01,F,name@company.org, , Hannah 
+ jack ,40,SIXTY THOUSAND,Other,IT,Director,2019.12.01,A,user@domain.com,555-555-5555, Jack 
+ ivy ,25,65000,Female,IT,Director,20-02-2020,A,email@example.com,nan, Ivy 
+ bob ,40,SIXTY THOUSAND,Male,HR,Clerk,20-02-2020,A,nan, , Bob 
+ jack ,thirty,SIXTY THOUSAND,Female,HR,Director,01/15/2020,A,,098-765-4321, Jack 
+ bob ,nan,55000,Other,Sales,Analyst,2019.12.01,C,nan,nan, Bob 
+ eve ,35,70000,Other,Sales,Clerk,20-02-2020,F,name@company.org, , Eve 
+ eve ,50,70000,Male,HR,Assistant,03-25-2019,B,nan,123-456-7890, Eve 
+ frank ,nan, NAN ,Male,Finance,Analyst,03-25-2019,F,,098-765-4321, Frank 
+ charlie ,40, NAN ,Male,Sales,Analyst,2019.12.01,C,email@example.com,nan, Charlie 
+ hannah ,35,55000,Female,Finance,Analyst,20-02-2020,A,user@domain.com,123-456-7890, Hannah 
+ alice ,40, NAN ,Female,HR,Assistant,01/15/2020,C,name@company.org,098-765-4321, Alice 
+ frank ,thirty,65000,Female,Sales,Manager,01/15/2020,D,,555-555-5555, Frank 
+ david ,25,50000,Male,IT,Director,01/15/2020,D,name@company.org,123-456-7890, David 
+ alice ,35,50000,Other,HR,Clerk,03-25-2019,F,nan, , Alice 
+ grace ,thirty,50000,Other,Marketing,Manager,20-02-2020,F,name@company.org,nan, Grace 
+ ivy ,thirty,55000,Female,Finance,Clerk,20-02-2020,B,,098-765-4321, Ivy 
+ david ,35,55000,Female,HR,Director,03-25-2019,B,user@domain.com,123-456-7890, David 
+ david ,40,SIXTY THOUSAND,Other,HR,Assistant,01/15/2020,D,user@domain.com,555-555-5555, David 
+ frank ,50,50000,Other,Sales,Analyst,01/15/2020,A,name@company.org,nan, Frank 
+ charlie ,thirty,65000,Female,Sales,Analyst,2019.12.01,C,email@example.com,nan, Charlie 
+ frank ,nan, NAN ,Female,Sales,Assistant,"April 5, 2018",B,name@company.org,123-456-7890, Frank 
+ grace ,thirty,65000,Other,Marketing,Manager,20-02-2020,B,nan,555-555-5555, Grace 
+ jack ,50, NAN ,Male,Sales,Manager,20-02-2020,A,user@domain.com,098-765-4321, Jack 
+ jack ,40,50000,Female,HR,Clerk,20-02-2020,A,user@domain.com,123-456-7890, Jack 
+ charlie ,40,50000,Other,Sales,Assistant,"April 5, 2018",F,user@domain.com,098-765-4321, Charlie 
+ grace ,nan,50000,Other,IT,Manager,2019.12.01,C,email@example.com,nan, Grace 
+ charlie ,thirty,55000,Other,Sales,Assistant,"April 5, 2018",A,email@example.com,098-765-4321, Charlie 
+ bob ,40, NAN ,Other,Marketing,Director,01/15/2020,B,,555-555-5555, Bob 
+ jack ,50,55000,Male,IT,Analyst,01/15/2020,B,name@company.org, , Jack 
+ david ,35,55000,Other,HR,Analyst,20-02-2020,D,name@company.org,555-555-5555, David 
+ hannah ,25,70000,Female,HR,Analyst,03-25-2019,A,nan,098-765-4321, Hannah 
+ ivy ,25,65000,Male,Finance,Assistant,20-02-2020,F,user@domain.com,123-456-7890, Ivy 
+ grace ,25,65000,Other,IT,Assistant,03-25-2019,C,email@example.com,nan, Grace 
+ alice ,thirty,SIXTY THOUSAND,Male,Finance,Clerk,"April 5, 2018",F,nan, , Alice 
+ charlie ,nan,55000,Female,IT,Analyst,01/15/2020,B,nan,123-456-7890, Charlie 
+ ivy ,40, NAN ,Other,IT,Clerk,03-25-2019,F,email@example.com,123-456-7890, Ivy 
+ alice ,35,70000,Female,Marketing,Analyst,"April 5, 2018",B,name@company.org,555-555-5555, Alice 
+ ivy ,50,70000,Other,Finance,Clerk,01/15/2020,B,user@domain.com,098-765-4321, Ivy 
+ hannah ,35,65000,Other,Marketing,Clerk,03-25-2019,B,name@company.org,555-555-5555, Hannah 
+ alice ,50,55000,Other,IT,Director,20-02-2020,B,nan,098-765-4321, Alice 
+ frank ,thirty,SIXTY THOUSAND,Other,HR,Clerk,20-02-2020,B,user@domain.com,555-555-5555, Frank 
+ eve ,25,55000,Other,IT,Assistant,20-02-2020,D,,123-456-7890, Eve 
+ frank ,thirty,50000,Male,Marketing,Clerk,"April 5, 2018",F,nan,nan, Frank 
+ jack ,nan,55000,Other,Finance,Analyst,20-02-2020,D,name@company.org,098-765-4321, Jack 
+ eve ,nan,50000,Other,Finance,Clerk,2019.12.01,D,name@company.org, , Eve 
+ frank ,50,50000,Male,Marketing,Manager,01/15/2020,A,name@company.org, , Frank 
+ eve ,40,SIXTY THOUSAND,Male,Finance,Analyst,"April 5, 2018",A,email@example.com,123-456-7890, Eve 
+ eve ,40, NAN ,Male,Sales,Manager,20-02-2020,A,nan,555-555-5555, Eve 
+ david ,50,65000,Male,HR,Analyst,01/15/2020,C,user@domain.com,555-555-5555, David 
+ charlie ,nan,55000,Male,HR,Assistant,03-25-2019,A,name@company.org,123-456-7890, Charlie 
+ charlie ,nan,50000,Male,HR,Assistant,20-02-2020,F,name@company.org, , Charlie 
+ david ,nan,55000,Other,Finance,Assistant,01/15/2020,D,email@example.com, , David 
+ ivy ,thirty, NAN ,Other,Finance,Manager,2019.12.01,F,user@domain.com,555-555-5555, Ivy 
+ bob ,nan,65000,Female,IT,Director,03-25-2019,A,nan,098-765-4321, Bob 
+ ivy ,35, NAN ,Other,IT,Analyst,2019.12.01,C,,nan, Ivy 
+ alice ,25,65000,Other,HR,Assistant,01/15/2020,C,email@example.com,098-765-4321, Alice 
+ alice ,nan,70000,Male,Sales,Analyst,2019.12.01,D,nan, , Alice 
+ eve ,50,65000,Male,IT,Manager,01/15/2020,F,,098-765-4321, Eve 
+ frank ,25,SIXTY THOUSAND,Other,IT,Director,01/15/2020,B,name@company.org,nan, Frank 
+ frank ,thirty, NAN ,Female,Finance,Manager,2019.12.01,F,name@company.org,098-765-4321, Frank 
+ charlie ,50,50000,Male,Sales,Analyst,01/15/2020,A,user@domain.com,098-765-4321, Charlie 
+ grace ,25,70000,Other,HR,Director,20-02-2020,B,,098-765-4321, Grace 
+ ivy ,50,SIXTY THOUSAND,Other,IT,Director,01/15/2020,C,name@company.org,098-765-4321, Ivy 
+ jack ,thirty,55000,Female,Sales,Manager,"April 5, 2018",D,name@company.org,123-456-7890, Jack 
+ hannah ,35, NAN ,Female,Sales,Assistant,01/15/2020,D,user@domain.com, , Hannah 
+ frank ,thirty,50000,Male,HR,Analyst,"April 5, 2018",C,nan,nan, Frank 
+ hannah ,thirty,65000,Female,Sales,Clerk,01/15/2020,A,name@company.org, , Hannah 
+ eve ,50,50000,Other,Sales,Clerk,01/15/2020,C,email@example.com,123-456-7890, Eve 
+ hannah ,40,55000,Other,Sales,Manager,2019.12.01,A,email@example.com,123-456-7890, Hannah 
+ jack ,nan,70000,Female,IT,Analyst,20-02-2020,B,nan,123-456-7890, Jack 
+ david ,nan,70000,Female,HR,Analyst,20-02-2020,C,,123-456-7890, David 
+ jack ,35, NAN ,Female,Sales,Manager,03-25-2019,A,user@domain.com,098-765-4321, Jack 
+ hannah ,35,70000,Female,Sales,Analyst,2019.12.01,B,email@example.com, , Hannah 
+ jack ,nan, NAN ,Male,IT,Assistant,2019.12.01,C,email@example.com,555-555-5555, Jack 
+ bob ,40, NAN ,Female,HR,Manager,20-02-2020,D,nan,nan, Bob 
+ eve ,nan, NAN ,Male,Finance,Assistant,2019.12.01,C,,123-456-7890, Eve 
+ ivy ,40,65000,Other,IT,Analyst,20-02-2020,F,, , Ivy 
+ david ,35,SIXTY THOUSAND,Female,HR,Manager,2019.12.01,C,nan,123-456-7890, David 
+ frank ,25, NAN ,Male,Sales,Analyst,01/15/2020,F,email@example.com,123-456-7890, Frank 
+ alice ,50, NAN ,Female,HR,Manager,20-02-2020,B,user@domain.com,123-456-7890, Alice 
+ ivy ,35,SIXTY THOUSAND,Other,HR,Analyst,20-02-2020,C,email@example.com,123-456-7890, Ivy 
+ alice ,35,50000,Other,HR,Assistant,"April 5, 2018",B,,123-456-7890, Alice 
+ eve ,thirty, NAN ,Other,Finance,Assistant,2019.12.01,B,email@example.com,nan, Eve 
+ david ,thirty,65000,Female,HR,Analyst,2019.12.01,A,user@domain.com, , David 
+ charlie ,thirty,70000,Female,Finance,Manager,20-02-2020,B,name@company.org,123-456-7890, Charlie 
+ frank ,50,70000,Male,Sales,Clerk,01/15/2020,B,email@example.com,123-456-7890, Frank 
+ bob ,thirty,55000,Other,Finance,Assistant,01/15/2020,C,nan,123-456-7890, Bob 
+ charlie ,40,55000,Female,Sales,Assistant,01/15/2020,C,name@company.org,123-456-7890, Charlie 
+ eve ,nan,70000,Other,Sales,Clerk,2019.12.01,D,nan,098-765-4321, Eve 
+ ivy ,25,70000,Other,Finance,Analyst,"April 5, 2018",A,nan,098-765-4321, Ivy 
+ bob ,35,65000,Male,IT,Manager,20-02-2020,B,nan,555-555-5555, Bob 
+ jack ,40,SIXTY THOUSAND,Male,Marketing,Analyst,03-25-2019,A,email@example.com,123-456-7890, Jack 
+ hannah ,25,55000,Male,HR,Director,"April 5, 2018",F,,555-555-5555, Hannah 
+ bob ,40,SIXTY THOUSAND,Male,Marketing,Assistant,03-25-2019,B,name@company.org,nan, Bob 
+ eve ,40,65000,Other,HR,Director,"April 5, 2018",A,user@domain.com,555-555-5555, Eve 
+ grace ,35,70000,Male,HR,Assistant,01/15/2020,D,, , Grace 
+ hannah ,nan, NAN ,Male,Sales,Assistant,2019.12.01,D,email@example.com,098-765-4321, Hannah 
+ alice ,thirty,SIXTY THOUSAND,Male,HR,Director,03-25-2019,B,nan,098-765-4321, Alice 
+ frank ,50,70000,Male,HR,Director,"April 5, 2018",F,user@domain.com,123-456-7890, Frank 
+ alice ,nan,70000,Other,Finance,Analyst,2019.12.01,D,name@company.org,123-456-7890, Alice 
+ bob ,50,50000,Male,Marketing,Director,03-25-2019,D,,nan, Bob 
+ alice ,35,SIXTY THOUSAND,Other,Finance,Analyst,20-02-2020,F,,nan, Alice 
+ eve ,35, NAN ,Female,HR,Analyst,"April 5, 2018",A,user@domain.com, , Eve 
+ jack ,35,SIXTY THOUSAND,Other,Sales,Analyst,20-02-2020,D,email@example.com,123-456-7890, Jack 
+ ivy ,25,70000,Other,Finance,Assistant,01/15/2020,C,name@company.org,123-456-7890, Ivy 
+ frank ,50, NAN ,Male,Finance,Assistant,20-02-2020,D,user@domain.com,nan, Frank 
+ alice ,nan,65000,Female,IT,Director,20-02-2020,A,nan,nan, Alice 
+ alice ,nan,50000,Female,HR,Assistant,"April 5, 2018",A,name@company.org,nan, Alice 
+ bob ,40,70000,Female,Sales,Director,01/15/2020,B,,098-765-4321, Bob 
+ ivy ,40,55000,Female,Finance,Assistant,20-02-2020,C,user@domain.com,555-555-5555, Ivy 
+ charlie ,40,55000,Other,Finance,Manager,2019.12.01,A,,555-555-5555, Charlie 
+ alice ,35,50000,Female,Sales,Manager,03-25-2019,F,,123-456-7890, Alice 
+ eve ,nan,65000,Other,HR,Director,20-02-2020,C,,098-765-4321, Eve 
+ grace ,50,70000,Other,IT,Assistant,01/15/2020,C,email@example.com,nan, Grace 
+ frank ,35,SIXTY THOUSAND,Other,Finance,Assistant,20-02-2020,F,,123-456-7890, Frank 
+ alice ,25,50000,Female,IT,Analyst,03-25-2019,D,nan,098-765-4321, Alice 
+ eve ,40,65000,Male,Marketing,Clerk,01/15/2020,F,nan, , Eve 
+ eve ,35,SIXTY THOUSAND,Male,HR,Director,"April 5, 2018",F,name@company.org,098-765-4321, Eve 
+ frank ,35,55000,Female,Marketing,Clerk,01/15/2020,D,,123-456-7890, Frank 
+ charlie ,25,55000,Male,Marketing,Clerk,"April 5, 2018",D,,555-555-5555, Charlie 
+ eve ,thirty,SIXTY THOUSAND,Male,Marketing,Director,01/15/2020,D,user@domain.com,nan, Eve 
+ grace ,nan,50000,Other,HR,Assistant,03-25-2019,D,email@example.com, , Grace 
+ eve ,50,55000,Other,HR,Director,03-25-2019,D,name@company.org,098-765-4321, Eve 
+ eve ,thirty,70000,Female,Sales,Clerk,01/15/2020,F,,123-456-7890, Eve 
+ eve ,40, NAN ,Female,IT,Assistant,20-02-2020,B,user@domain.com,123-456-7890, Eve 
+ jack ,35,SIXTY THOUSAND,Male,IT,Manager,03-25-2019,B,email@example.com,nan, Jack 
+ jack ,25,SIXTY THOUSAND,Other,Sales,Director,"April 5, 2018",A,name@company.org,123-456-7890, Jack 
+ charlie ,25,55000,Female,Sales,Director,"April 5, 2018",B,name@company.org,123-456-7890, Charlie 
+ alice ,nan,50000,Female,Marketing,Assistant,2019.12.01,B,,nan, Alice 
+ eve ,thirty,70000,Female,Sales,Manager,"April 5, 2018",F,name@company.org, , Eve 
+ ivy ,nan,50000,Female,Finance,Manager,2019.12.01,D,user@domain.com,555-555-5555, Ivy 
+ alice ,35,65000,Female,IT,Assistant,01/15/2020,D,name@company.org,555-555-5555, Alice 
+ charlie ,nan,65000,Female,Sales,Analyst,01/15/2020,F,nan,098-765-4321, Charlie 
+ david ,50, NAN ,Male,Finance,Director,01/15/2020,B,user@domain.com, , David 
+ alice ,25,55000,Other,Finance,Director,20-02-2020,F,email@example.com,098-765-4321, Alice 
+ alice ,25,55000,Other,Finance,Clerk,20-02-2020,A,email@example.com,555-555-5555, Alice 
+ hannah ,40,55000,Female,Finance,Assistant,2019.12.01,D,,nan, Hannah 
+ bob ,40, NAN ,Other,Marketing,Clerk,"April 5, 2018",C,,123-456-7890, Bob 
+ hannah ,35,65000,Other,Finance,Clerk,"April 5, 2018",A,nan,555-555-5555, Hannah 
+ grace ,50,50000,Other,Marketing,Manager,01/15/2020,A,email@example.com, , Grace 
+ jack ,thirty, NAN ,Female,Marketing,Director,03-25-2019,F,email@example.com,555-555-5555, Jack 
+ jack ,nan, NAN ,Female,Finance,Clerk,20-02-2020,B,email@example.com, , Jack 
+ bob ,35,50000,Other,IT,Manager,20-02-2020,D,email@example.com, , Bob 
+ frank ,40,55000,Other,Finance,Assistant,01/15/2020,C,name@company.org, , Frank 
+ frank ,nan,70000,Female,Finance,Clerk,20-02-2020,A,user@domain.com,098-765-4321, Frank 
+ charlie ,40,50000,Male,Finance,Director,01/15/2020,C,user@domain.com,nan, Charlie 
+ bob ,nan,65000,Other,IT,Clerk,2019.12.01,B,nan,555-555-5555, Bob 
+ alice ,thirty,SIXTY THOUSAND,Male,HR,Assistant,"April 5, 2018",B,name@company.org,nan, Alice 
+ frank ,35,SIXTY THOUSAND,Other,HR,Clerk,03-25-2019,C,email@example.com,123-456-7890, Frank 
+ eve ,nan, NAN ,Male,Marketing,Director,"April 5, 2018",D,email@example.com,555-555-5555, Eve 
+ ivy ,50,SIXTY THOUSAND,Male,Marketing,Manager,"April 5, 2018",B,,nan, Ivy 
+ alice ,25,70000,Male,IT,Director,2019.12.01,C,,nan, Alice 
+ grace ,50,55000,Female,Sales,Manager,20-02-2020,A,nan,123-456-7890, Grace 
+ eve ,50,65000,Male,HR,Analyst,03-25-2019,C,email@example.com, , Eve 
+ eve ,25,70000,Male,Marketing,Director,20-02-2020,C,nan,555-555-5555, Eve 
+ bob ,50,65000,Male,HR,Director,"April 5, 2018",F,name@company.org,555-555-5555, Bob 
+ charlie ,nan,65000,Other,IT,Assistant,01/15/2020,B,user@domain.com,123-456-7890, Charlie 
+ grace ,nan,55000,Male,IT,Clerk,"April 5, 2018",D,email@example.com, , Grace 
+ frank ,nan, NAN ,Other,Sales,Manager,20-02-2020,D,name@company.org,555-555-5555, Frank 
+ bob ,25,SIXTY THOUSAND,Male,Sales,Manager,"April 5, 2018",F,email@example.com,555-555-5555, Bob 
+ frank ,50,55000,Male,IT,Assistant,01/15/2020,D,,555-555-5555, Frank 
+ bob ,25,70000,Female,Marketing,Assistant,2019.12.01,C,nan, , Bob 
+ bob ,nan, NAN ,Other,HR,Clerk,20-02-2020,F,,123-456-7890, Bob 
+ bob ,50,70000,Male,Finance,Clerk,"April 5, 2018",A,user@domain.com,555-555-5555, Bob 
+ charlie ,50, NAN ,Other,Sales,Director,20-02-2020,B,,nan, Charlie 
+ bob ,40,70000,Other,Finance,Analyst,2019.12.01,B,email@example.com, , Bob 
+ david ,40,55000,Female,Marketing,Clerk,"April 5, 2018",B,,098-765-4321, David 
+ ivy ,thirty, NAN ,Female,Sales,Assistant,"April 5, 2018",C,email@example.com,123-456-7890, Ivy 
+ frank ,35, NAN ,Female,Finance,Clerk,20-02-2020,A,user@domain.com,nan, Frank 
+ alice ,40,65000,Female,Marketing,Manager,20-02-2020,F,,555-555-5555, Alice 
+ hannah ,25,65000,Female,HR,Analyst,01/15/2020,F,nan,098-765-4321, Hannah 
+ grace ,40,50000,Female,Marketing,Director,2019.12.01,B,nan,123-456-7890, Grace 
+ jack ,thirty,70000,Female,Sales,Manager,01/15/2020,A,nan, , Jack 
+ charlie ,50,65000,Female,IT,Manager,"April 5, 2018",A,,098-765-4321, Charlie 
+ alice ,thirty,50000,Male,HR,Analyst,20-02-2020,A,,098-765-4321, Alice 
+ eve ,50,65000,Other,Finance,Director,"April 5, 2018",D,,nan, Eve 
+ david ,50,70000,Female,Sales,Assistant,"April 5, 2018",D,email@example.com,123-456-7890, David 
+ jack ,35, NAN ,Female,IT,Director,03-25-2019,B,user@domain.com,nan, Jack 
+ hannah ,40,SIXTY THOUSAND,Other,Marketing,Clerk,03-25-2019,A,nan,nan, Hannah 
+ alice ,25,70000,Male,IT,Manager,"April 5, 2018",A,email@example.com,555-555-5555, Alice 
+ jack ,25,55000,Other,Sales,Clerk,20-02-2020,F,nan, , Jack 
+ alice ,nan,65000,Other,Sales,Assistant,"April 5, 2018",F,email@example.com,098-765-4321, Alice 
+ david ,50,65000,Female,IT,Clerk,03-25-2019,B,,123-456-7890, David 
+ hannah ,25, NAN ,Other,Marketing,Director,20-02-2020,A,nan, , Hannah 
+ eve ,35,55000,Other,IT,Clerk,"April 5, 2018",B,, , Eve 
+ bob ,50, NAN ,Female,Sales,Assistant,2019.12.01,F,nan,123-456-7890, Bob 
+ frank ,35,55000,Female,Sales,Assistant,2019.12.01,F,name@company.org, , Frank 
+ eve ,25,SIXTY THOUSAND,Female,Finance,Assistant,"April 5, 2018",D,email@example.com,555-555-5555, Eve 
+ bob ,25,65000,Female,Finance,Director,20-02-2020,B,name@company.org, , Bob 
+ charlie ,nan,65000,Other,HR,Assistant,"April 5, 2018",B,email@example.com,555-555-5555, Charlie 
+ ivy ,25,SIXTY THOUSAND,Other,Sales,Manager,"April 5, 2018",A,user@domain.com,098-765-4321, Ivy 
+ grace ,50,50000,Male,Finance,Assistant,03-25-2019,A,nan,098-765-4321, Grace 
+ grace ,50, NAN ,Male,IT,Clerk,2019.12.01,D,user@domain.com,nan, Grace 
+ frank ,50,SIXTY THOUSAND,Other,Marketing,Clerk,03-25-2019,C,user@domain.com,555-555-5555, Frank 
+ hannah ,nan, NAN ,Male,IT,Clerk,03-25-2019,C,email@example.com,098-765-4321, Hannah 
+ david ,nan,70000,Other,Marketing,Director,"April 5, 2018",C,name@company.org, , David 
+ hannah ,25,65000,Male,Finance,Clerk,03-25-2019,B,,123-456-7890, Hannah 
+ david ,thirty, NAN ,Female,HR,Director,2019.12.01,B,email@example.com,123-456-7890, David 
+ hannah ,thirty,55000,Male,IT,Director,03-25-2019,F,,555-555-5555, Hannah 
+ ivy ,nan, NAN ,Female,IT,Assistant,2019.12.01,B,user@domain.com,nan, Ivy 
+ charlie ,25,70000,Female,IT,Manager,03-25-2019,B,, , Charlie 
+ charlie ,thirty,65000,Female,Marketing,Assistant,2019.12.01,B,name@company.org,555-555-5555, Charlie 
+ bob ,25,SIXTY THOUSAND,Female,Finance,Assistant,03-25-2019,D,email@example.com,123-456-7890, Bob 
+ jack ,25,70000,Male,IT,Director,03-25-2019,B,name@company.org,555-555-5555, Jack 
+ charlie ,25,65000,Other,IT,Director,20-02-2020,A,name@company.org, , Charlie 
+ charlie ,40, NAN ,Female,HR,Clerk,2019.12.01,A,email@example.com,098-765-4321, Charlie 
+ eve ,50,50000,Male,HR,Clerk,2019.12.01,F,name@company.org, , Eve 
+ eve ,25,50000,Female,Finance,Assistant,2019.12.01,D,nan,098-765-4321, Eve 
+ bob ,40,55000,Male,Finance,Analyst,01/15/2020,A,nan,098-765-4321, Bob 
+ jack ,nan,65000,Male,Sales,Analyst,03-25-2019,D,nan,098-765-4321, Jack 
+ frank ,thirty,50000,Male,HR,Clerk,2019.12.01,D,,555-555-5555, Frank 
+ eve ,50,SIXTY THOUSAND,Other,Sales,Analyst,01/15/2020,F,name@company.org,123-456-7890, Eve 
+ frank ,thirty,65000,Male,Marketing,Clerk,20-02-2020,D,email@example.com,555-555-5555, Frank 
+ alice ,50,SIXTY THOUSAND,Male,Sales,Director,2019.12.01,B,email@example.com,123-456-7890, Alice 
+ eve ,thirty,SIXTY THOUSAND,Other,IT,Assistant,2019.12.01,D,, , Eve 
+ ivy ,50,50000,Other,Sales,Manager,01/15/2020,F,email@example.com,nan, Ivy 
+ jack ,thirty,65000,Male,Finance,Assistant,03-25-2019,F,nan, , Jack 
+ bob ,thirty, NAN ,Other,Marketing,Clerk,20-02-2020,F,name@company.org,555-555-5555, Bob 
+ alice ,thirty,70000,Female,IT,Clerk,2019.12.01,A,email@example.com,555-555-5555, Alice 
+ jack ,thirty,50000,Female,Sales,Assistant,03-25-2019,B,email@example.com,123-456-7890, Jack 
+ ivy ,nan,50000,Other,Marketing,Clerk,20-02-2020,A,user@domain.com,555-555-5555, Ivy 
+ jack ,25, NAN ,Other,Marketing,Analyst,"April 5, 2018",C,user@domain.com,098-765-4321, Jack 
+ ivy ,35,65000,Male,IT,Analyst,"April 5, 2018",B,user@domain.com,555-555-5555, Ivy 
+ ivy ,40,65000,Other,Sales,Clerk,20-02-2020,D,name@company.org,123-456-7890, Ivy 
+ frank ,35,SIXTY THOUSAND,Male,Marketing,Clerk,01/15/2020,F,nan,123-456-7890, Frank 
+ hannah ,35, NAN ,Female,Marketing,Analyst,20-02-2020,C,nan,098-765-4321, Hannah 
+ alice ,50, NAN ,Other,HR,Clerk,20-02-2020,B,nan,123-456-7890, Alice 
+ jack ,25,65000,Male,Marketing,Clerk,01/15/2020,A,name@company.org,nan, Jack 
+ david ,50,SIXTY THOUSAND,Male,HR,Assistant,01/15/2020,F,name@company.org, , David 
+ alice ,25,50000,Female,Sales,Manager,03-25-2019,A,user@domain.com,555-555-5555, Alice 
+ hannah ,25,55000,Other,Sales,Analyst,03-25-2019,B,email@example.com,nan, Hannah 
+ alice ,thirty,70000,Female,Sales,Assistant,01/15/2020,B,,555-555-5555, Alice 
+ charlie ,nan,50000,Male,Finance,Manager,"April 5, 2018",C,,nan, Charlie 
+ david ,thirty,65000,Male,Sales,Clerk,"April 5, 2018",D,email@example.com,555-555-5555, David 
+ hannah ,nan,70000,Other,Marketing,Clerk,20-02-2020,A,user@domain.com,098-765-4321, Hannah 
+ frank ,50,55000,Male,IT,Assistant,2019.12.01,C,email@example.com,123-456-7890, Frank 
+ jack ,nan,55000,Other,HR,Clerk,20-02-2020,F,email@example.com,123-456-7890, Jack 
+ grace ,50,SIXTY THOUSAND,Female,Finance,Director,20-02-2020,D,,098-765-4321, Grace 
+ hannah ,35,70000,Other,Sales,Assistant,2019.12.01,C,user@domain.com,nan, Hannah 
+ bob ,35,SIXTY THOUSAND,Other,Sales,Manager,01/15/2020,A,name@company.org, , Bob 
+ jack ,nan,50000,Male,IT,Assistant,"April 5, 2018",B,,nan, Jack 
+ hannah ,nan, NAN ,Male,IT,Analyst,20-02-2020,F,name@company.org,123-456-7890, Hannah 
+ charlie ,50, NAN ,Other,Finance,Assistant,2019.12.01,A,user@domain.com, , Charlie 
+ grace ,thirty, NAN ,Male,HR,Clerk,03-25-2019,D,email@example.com,555-555-5555, Grace 
+ charlie ,50,70000,Male,Sales,Clerk,20-02-2020,D,nan, , Charlie 
+ grace ,thirty, NAN ,Male,Finance,Director,"April 5, 2018",B,nan,nan, Grace 
+ bob ,35,50000,Other,Marketing,Director,01/15/2020,B,user@domain.com,098-765-4321, Bob 
+ jack ,25,SIXTY THOUSAND,Male,Marketing,Director,20-02-2020,F,nan,555-555-5555, Jack 
+ frank ,nan,70000,Other,Finance,Manager,20-02-2020,F,name@company.org,nan, Frank 
+ charlie ,thirty,SIXTY THOUSAND,Male,Sales,Director,2019.12.01,B,nan,555-555-5555, Charlie 
+ charlie ,50,70000,Female,Finance,Manager,03-25-2019,B,user@domain.com, , Charlie 
+ ivy ,35,SIXTY THOUSAND,Male,Sales,Director,03-25-2019,D,user@domain.com,123-456-7890, Ivy 
+ grace ,thirty,55000,Male,IT,Manager,01/15/2020,B,name@company.org,nan, Grace 
+ eve ,50,SIXTY THOUSAND,Other,Finance,Assistant,"April 5, 2018",C,nan,098-765-4321, Eve 
+ jack ,nan, NAN ,Other,Sales,Assistant,01/15/2020,A,nan, , Jack 
+ grace ,nan,55000,Male,Finance,Clerk,20-02-2020,B,email@example.com,nan, Grace 
+ ivy ,40,SIXTY THOUSAND,Female,Finance,Manager,20-02-2020,F,,098-765-4321, Ivy 
+ alice ,25,70000,Male,Sales,Analyst,03-25-2019,C,user@domain.com,nan, Alice 
+ grace ,40,70000,Male,Sales,Clerk,"April 5, 2018",F,email@example.com, , Grace 
+ frank ,35,70000,Female,HR,Assistant,2019.12.01,C,user@domain.com,nan, Frank 
+ jack ,thirty,65000,Other,Finance,Manager,"April 5, 2018",B,email@example.com,555-555-5555, Jack 
+ ivy ,35,50000,Male,Marketing,Director,20-02-2020,A,, , Ivy 
+ alice ,50,70000,Other,Finance,Analyst,2019.12.01,F,email@example.com,nan, Alice 
+ david ,nan,55000,Other,Finance,Assistant,"April 5, 2018",C,user@domain.com,123-456-7890, David 
+ ivy ,40,70000,Female,Sales,Clerk,"April 5, 2018",D,nan,nan, Ivy 
+ david ,40,65000,Female,Finance,Manager,2019.12.01,B,user@domain.com,555-555-5555, David 
+ jack ,40, NAN ,Other,Finance,Analyst,20-02-2020,A,name@company.org,098-765-4321, Jack 
+ charlie ,35,55000,Male,Marketing,Manager,"April 5, 2018",B,name@company.org,098-765-4321, Charlie 
+ ivy ,nan,65000,Other,Sales,Director,2019.12.01,D,name@company.org,098-765-4321, Ivy 
+ bob ,thirty, NAN ,Male,Finance,Clerk,20-02-2020,A,name@company.org,123-456-7890, Bob 
+ david ,50,55000,Male,IT,Manager,2019.12.01,D,,555-555-5555, David 
+ frank ,thirty,SIXTY THOUSAND,Female,HR,Assistant,2019.12.01,B,nan, , Frank 
+ bob ,35,50000,Male,Marketing,Clerk,"April 5, 2018",C,nan,098-765-4321, Bob 
+ hannah ,50,50000,Male,Finance,Assistant,20-02-2020,B,user@domain.com,555-555-5555, Hannah 
+ hannah ,40,65000,Other,IT,Manager,"April 5, 2018",B,email@example.com,nan, Hannah 
+ alice ,25, NAN ,Female,Finance,Clerk,01/15/2020,B,user@domain.com,123-456-7890, Alice 
+ charlie ,35,50000,Male,Finance,Assistant,01/15/2020,F,user@domain.com,555-555-5555, Charlie 
+ jack ,35, NAN ,Male,Sales,Director,20-02-2020,D,user@domain.com,555-555-5555, Jack 
+ ivy ,nan, NAN ,Female,Sales,Director,2019.12.01,D,user@domain.com, , Ivy 
+ eve ,thirty,65000,Other,Sales,Manager,"April 5, 2018",D,nan,555-555-5555, Eve 
+ frank ,35,65000,Female,IT,Clerk,"April 5, 2018",F,email@example.com, , Frank 
+ david ,35,65000,Female,Finance,Analyst,20-02-2020,C,user@domain.com,123-456-7890, David 
+ jack ,40,50000,Male,HR,Clerk,20-02-2020,B,nan,123-456-7890, Jack 
+ bob ,40,65000,Male,Marketing,Director,01/15/2020,C,user@domain.com,nan, Bob 
+ hannah ,50,50000,Other,Sales,Assistant,03-25-2019,F,name@company.org, , Hannah 
+ frank ,25,65000,Male,Sales,Analyst,20-02-2020,D,user@domain.com, , Frank 
+ eve ,nan,70000,Male,Finance,Manager,03-25-2019,B,user@domain.com,098-765-4321, Eve 
+ ivy ,25, NAN ,Female,Finance,Analyst,20-02-2020,A,,098-765-4321, Ivy 
+ alice ,50,65000,Male,IT,Manager,2019.12.01,A,name@company.org,nan, Alice 
+ eve ,40,55000,Other,IT,Analyst,2019.12.01,C,email@example.com,123-456-7890, Eve 
+ frank ,thirty, NAN ,Female,Sales,Manager,01/15/2020,D,user@domain.com,098-765-4321, Frank 
+ eve ,40, NAN ,Other,Finance,Manager,01/15/2020,A,email@example.com,555-555-5555, Eve 
+ frank ,nan,65000,Female,HR,Analyst,03-25-2019,C,name@company.org,123-456-7890, Frank 
+ frank ,40,SIXTY THOUSAND,Male,Marketing,Analyst,20-02-2020,F,user@domain.com,555-555-5555, Frank 
+ grace ,nan,65000,Female,Finance,Manager,"April 5, 2018",C,, , Grace 
+ david ,nan, NAN ,Female,Finance,Director,01/15/2020,C,nan,123-456-7890, David 
+ hannah ,nan,55000,Male,IT,Analyst,"April 5, 2018",C,,nan, Hannah 
+ grace ,50, NAN ,Male,Marketing,Clerk,"April 5, 2018",B,, , Grace 
+ ivy ,nan,55000,Other,Sales,Assistant,20-02-2020,C,nan, , Ivy 
+ grace ,nan,50000,Other,Finance,Manager,03-25-2019,C,nan,555-555-5555, Grace 
+ charlie ,thirty,70000,Male,Sales,Manager,20-02-2020,B,nan, , Charlie 
+ charlie ,25, NAN ,Male,Finance,Assistant,01/15/2020,B,user@domain.com,098-765-4321, Charlie 
+ hannah ,35,65000,Male,Sales,Director,"April 5, 2018",F,email@example.com,123-456-7890, Hannah 
+ eve ,25,50000,Female,Marketing,Assistant,20-02-2020,D,email@example.com,098-765-4321, Eve 
+ david ,nan,70000,Female,IT,Analyst,20-02-2020,A,nan,555-555-5555, David 
+ hannah ,thirty,65000,Female,Marketing,Assistant,20-02-2020,A,,555-555-5555, Hannah 
+ frank ,40,SIXTY THOUSAND,Male,HR,Manager,01/15/2020,C,name@company.org,123-456-7890, Frank 
+ bob ,thirty,65000,Other,IT,Assistant,03-25-2019,F,nan, , Bob 
+ david ,nan,55000,Male,Marketing,Clerk,20-02-2020,C,,nan, David 
+ david ,thirty,55000,Female,HR,Analyst,01/15/2020,A,,555-555-5555, David 
+ frank ,thirty,SIXTY THOUSAND,Female,Finance,Assistant,"April 5, 2018",B,user@domain.com,123-456-7890, Frank 
+ frank ,nan,50000,Male,Finance,Manager,2019.12.01,D,user@domain.com,nan, Frank 
+ alice ,50,70000,Male,Sales,Analyst,01/15/2020,F,email@example.com, , Alice 
+ hannah ,thirty,65000,Female,IT,Manager,2019.12.01,B,email@example.com,555-555-5555, Hannah 
+ frank ,35,55000,Female,Finance,Director,20-02-2020,D,name@company.org,123-456-7890, Frank 
+ charlie ,35,50000,Female,IT,Clerk,20-02-2020,F,name@company.org,123-456-7890, Charlie 
+ ivy ,thirty,SIXTY THOUSAND,Male,Finance,Director,01/15/2020,F,name@company.org,123-456-7890, Ivy 
+ bob ,50, NAN ,Female,Sales,Clerk,2019.12.01,A,name@company.org,555-555-5555, Bob 
+ hannah ,40,55000,Female,Marketing,Assistant,20-02-2020,B,,nan, Hannah 
+ jack ,nan,SIXTY THOUSAND,Other,Sales,Analyst,"April 5, 2018",F,,123-456-7890, Jack 
+ charlie ,35,65000,Male,HR,Assistant,03-25-2019,F,email@example.com, , Charlie 
+ eve ,40,70000,Other,Finance,Clerk,03-25-2019,D,user@domain.com,123-456-7890, Eve 
+ frank ,thirty,55000,Other,HR,Clerk,20-02-2020,A,user@domain.com,nan, Frank 
+ jack ,40,55000,Female,HR,Clerk,2019.12.01,C,nan,555-555-5555, Jack 
+ frank ,25,65000,Male,IT,Manager,20-02-2020,A,,123-456-7890, Frank 
+ david ,35, NAN ,Female,Finance,Analyst,2019.12.01,C,name@company.org,123-456-7890, David 
+ charlie ,thirty,50000,Male,HR,Assistant,"April 5, 2018",B,name@company.org, , Charlie 
+ david ,nan,70000,Other,Marketing,Assistant,2019.12.01,B,nan, , David 
+ alice ,50,55000,Male,HR,Director,20-02-2020,F,user@domain.com,123-456-7890, Alice 
+ david ,thirty,70000,Female,Marketing,Clerk,"April 5, 2018",B,name@company.org,123-456-7890, David 
+ alice ,nan,55000,Female,IT,Clerk,01/15/2020,F,user@domain.com, , Alice 
+ alice ,50,70000,Female,HR,Clerk,03-25-2019,A,nan,nan, Alice 
+ jack ,50,SIXTY THOUSAND,Male,Sales,Assistant,20-02-2020,B,user@domain.com,098-765-4321, Jack 
+ frank ,thirty,55000,Other,IT,Director,20-02-2020,A,user@domain.com,098-765-4321, Frank 
+ eve ,40,70000,Other,Marketing,Manager,20-02-2020,A,user@domain.com,123-456-7890, Eve 
+ david ,40,50000,Male,IT,Analyst,"April 5, 2018",B,name@company.org, , David 
+ charlie ,50,SIXTY THOUSAND,Female,HR,Manager,01/15/2020,A,email@example.com,555-555-5555, Charlie 
+ alice ,40,SIXTY THOUSAND,Other,Finance,Assistant,2019.12.01,B,,555-555-5555, Alice 
+ frank ,25,50000,Female,Finance,Clerk,01/15/2020,B,user@domain.com,098-765-4321, Frank 
+ bob ,50,70000,Male,Marketing,Analyst,"April 5, 2018",B,user@domain.com,nan, Bob 
+ hannah ,50,65000,Female,Marketing,Assistant,20-02-2020,C,user@domain.com,098-765-4321, Hannah 
+ jack ,nan,50000,Other,Finance,Assistant,03-25-2019,A,email@example.com,123-456-7890, Jack 
+ eve ,40,70000,Other,Marketing,Assistant,20-02-2020,D,nan,nan, Eve 
+ grace ,50,50000,Female,IT,Analyst,2019.12.01,B,name@company.org,555-555-5555, Grace 
+ jack ,25,50000,Male,Sales,Analyst,03-25-2019,A,email@example.com, , Jack 
+ bob ,nan,55000,Female,Sales,Director,20-02-2020,F,user@domain.com, , Bob 
+ hannah ,thirty,70000,Male,IT,Director,03-25-2019,B,email@example.com,123-456-7890, Hannah 
+ bob ,50,65000,Female,Sales,Manager,01/15/2020,B,email@example.com,098-765-4321, Bob 
+ david ,25,55000,Other,HR,Analyst,"April 5, 2018",D,email@example.com,123-456-7890, David 
+ alice ,35,50000,Male,IT,Analyst,20-02-2020,C,nan, , Alice 
+ eve ,25, NAN ,Male,Marketing,Analyst,2019.12.01,C,,555-555-5555, Eve 
+ ivy ,25,50000,Male,IT,Director,01/15/2020,B,name@company.org, , Ivy 
+ alice ,nan,50000,Other,Finance,Assistant,20-02-2020,A,nan,nan, Alice 
+ ivy ,thirty,70000,Female,Marketing,Clerk,01/15/2020,F,nan, , Ivy 
+ hannah ,35,70000,Other,Finance,Director,2019.12.01,F,, , Hannah 
+ frank ,40,55000,Male,Marketing,Analyst,20-02-2020,A,nan,nan, Frank 
+ grace ,40,65000,Female,Sales,Director,2019.12.01,B,email@example.com,098-765-4321, Grace 
+ charlie ,25,55000,Other,IT,Manager,03-25-2019,F,email@example.com, , Charlie 
+ alice ,nan,SIXTY THOUSAND,Male,HR,Analyst,2019.12.01,C,user@domain.com,123-456-7890, Alice 
+ eve ,nan,50000,Male,Marketing,Manager,03-25-2019,A,nan, , Eve 
+ bob ,40, NAN ,Other,Marketing,Analyst,20-02-2020,D,user@domain.com,123-456-7890, Bob 
+ eve ,35,50000,Other,Finance,Director,03-25-2019,B,name@company.org,nan, Eve 
+ hannah ,thirty,50000,Other,Sales,Assistant,20-02-2020,A,email@example.com, , Hannah 
+ ivy ,35,55000,Male,Finance,Clerk,20-02-2020,F,name@company.org,nan, Ivy 
+ bob ,50, NAN ,Other,Finance,Manager,"April 5, 2018",B,,nan, Bob 
+ charlie ,50, NAN ,Male,Sales,Director,20-02-2020,C,email@example.com,098-765-4321, Charlie 
+ charlie ,thirty, NAN ,Other,HR,Assistant,03-25-2019,B,name@company.org, , Charlie 
+ alice ,40,55000,Male,Finance,Director,"April 5, 2018",B,,123-456-7890, Alice 
+ hannah ,thirty,50000,Male,Finance,Manager,"April 5, 2018",C,name@company.org,123-456-7890, Hannah 
+ frank ,nan,55000,Female,Marketing,Clerk,20-02-2020,C,, , Frank 
+ hannah ,50,70000,Other,Sales,Director,2019.12.01,B,,098-765-4321, Hannah 
+ ivy ,25,70000,Other,IT,Analyst,2019.12.01,C,email@example.com,098-765-4321, Ivy 
+ eve ,25,55000,Male,HR,Assistant,"April 5, 2018",A,user@domain.com,098-765-4321, Eve 
+ charlie ,40, NAN ,Male,HR,Director,20-02-2020,C,,123-456-7890, Charlie 
+ eve ,nan,50000,Male,Sales,Assistant,2019.12.01,C,,nan, Eve 
+ eve ,35,55000,Female,Marketing,Analyst,20-02-2020,B,email@example.com,098-765-4321, Eve 
+ eve ,nan,55000,Female,Marketing,Clerk,20-02-2020,A,user@domain.com,123-456-7890, Eve 
+ charlie ,25,55000,Male,Sales,Clerk,"April 5, 2018",D,nan,123-456-7890, Charlie 
+ jack ,25,SIXTY THOUSAND,Other,Marketing,Analyst,"April 5, 2018",D,nan,nan, Jack 
+ david ,50,70000,Other,HR,Assistant,01/15/2020,F,user@domain.com, , David 
+ ivy ,nan, NAN ,Female,HR,Director,2019.12.01,C,name@company.org, , Ivy 
+ jack ,nan,65000,Female,IT,Analyst,2019.12.01,C,email@example.com,098-765-4321, Jack 
+ ivy ,25, NAN ,Male,Sales,Manager,2019.12.01,A,user@domain.com,098-765-4321, Ivy 
+ bob ,35,65000,Other,Finance,Assistant,03-25-2019,D,nan,nan, Bob 
+ hannah ,40,SIXTY THOUSAND,Male,Finance,Clerk,20-02-2020,F,,098-765-4321, Hannah 
+ hannah ,40,55000,Female,IT,Analyst,"April 5, 2018",A,nan,nan, Hannah 
+ grace ,nan,SIXTY THOUSAND,Other,IT,Clerk,2019.12.01,C,,123-456-7890, Grace 
+ hannah ,40,SIXTY THOUSAND,Other,Marketing,Assistant,01/15/2020,D,email@example.com,098-765-4321, Hannah 
+ charlie ,25,50000,Female,IT,Clerk,2019.12.01,F,,123-456-7890, Charlie 
+ frank ,25,70000,Male,IT,Analyst,20-02-2020,B,user@domain.com,555-555-5555, Frank 
+ alice ,nan,65000,Male,Finance,Assistant,20-02-2020,D,,nan, Alice 
+ grace ,nan,55000,Other,Marketing,Manager,"April 5, 2018",F,name@company.org,555-555-5555, Grace 
+ alice ,50,65000,Female,IT,Analyst,03-25-2019,A,user@domain.com,098-765-4321, Alice 
+ ivy ,nan, NAN ,Other,IT,Director,"April 5, 2018",B,email@example.com,123-456-7890, Ivy 
+ alice ,35,65000,Female,Marketing,Analyst,2019.12.01,F,user@domain.com,098-765-4321, Alice 
+ alice ,40, NAN ,Male,Sales,Assistant,01/15/2020,F,name@company.org,555-555-5555, Alice 
+ grace ,nan,70000,Female,Marketing,Analyst,"April 5, 2018",C,email@example.com,098-765-4321, Grace 
+ bob ,thirty, NAN ,Male,Finance,Manager,03-25-2019,D,nan, , Bob 
+ eve ,50,65000,Female,Sales,Manager,"April 5, 2018",C,name@company.org,555-555-5555, Eve 
+ hannah ,thirty,65000,Other,HR,Director,20-02-2020,B,email@example.com,098-765-4321, Hannah 
+ hannah ,25, NAN ,Male,Marketing,Clerk,2019.12.01,F,,123-456-7890, Hannah 
+ charlie ,40,SIXTY THOUSAND,Other,Finance,Assistant,2019.12.01,C,user@domain.com,098-765-4321, Charlie 
+ grace ,nan,70000,Other,Sales,Assistant,2019.12.01,D,email@example.com,123-456-7890, Grace 
+ charlie ,thirty,50000,Male,Marketing,Clerk,2019.12.01,B,user@domain.com, , Charlie 
+ frank ,40,55000,Male,IT,Manager,2019.12.01,A,,098-765-4321, Frank 
+ frank ,25,65000,Other,Marketing,Manager,2019.12.01,C,email@example.com, , Frank 
+ charlie ,35,55000,Other,HR,Analyst,01/15/2020,B,nan,555-555-5555, Charlie 
+ grace ,50,50000,Other,Marketing,Director,03-25-2019,A,name@company.org,123-456-7890, Grace 
+ charlie ,40,55000,Other,Sales,Director,2019.12.01,C,email@example.com,555-555-5555, Charlie 
+ hannah ,40,50000,Male,Sales,Director,03-25-2019,B,,123-456-7890, Hannah 
+ jack ,35, NAN ,Male,Marketing,Analyst,2019.12.01,B,email@example.com, , Jack 
+ david ,40,SIXTY THOUSAND,Other,Sales,Director,"April 5, 2018",C,user@domain.com,nan, David 
+ alice ,25,65000,Female,IT,Clerk,2019.12.01,B,email@example.com,098-765-4321, Alice 
+ david ,25,50000,Female,Marketing,Analyst,20-02-2020,F,nan, , David 
+ grace ,35,55000,Male,IT,Clerk,01/15/2020,C,email@example.com,123-456-7890, Grace 
+ david ,50,65000,Other,IT,Analyst,"April 5, 2018",B,name@company.org,123-456-7890, David 
+ frank ,nan,SIXTY THOUSAND,Other,Finance,Director,"April 5, 2018",A,email@example.com,123-456-7890, Frank 
+ ivy ,thirty, NAN ,Male,Marketing,Clerk,20-02-2020,A,user@domain.com,123-456-7890, Ivy 
+ alice ,nan,65000,Female,Sales,Clerk,2019.12.01,F,email@example.com,098-765-4321, Alice 
+ eve ,40,50000,Female,IT,Clerk,01/15/2020,C,nan,555-555-5555, Eve 
+ grace ,thirty,SIXTY THOUSAND,Female,Finance,Analyst,"April 5, 2018",B,,nan, Grace 
+ alice ,35,55000,Male,Marketing,Assistant,01/15/2020,B,email@example.com,098-765-4321, Alice 
+ david ,35,SIXTY THOUSAND,Female,Marketing,Director,"April 5, 2018",A,email@example.com,123-456-7890, David 
+ frank ,50,SIXTY THOUSAND,Male,HR,Clerk,2019.12.01,F,name@company.org,098-765-4321, Frank 
+ bob ,thirty,70000,Male,HR,Assistant,"April 5, 2018",A,nan, , Bob 
+ jack ,25,SIXTY THOUSAND,Other,IT,Director,"April 5, 2018",A,,123-456-7890, Jack 
+ eve ,thirty,SIXTY THOUSAND,Female,HR,Director,03-25-2019,F,user@domain.com,nan, Eve 
+ jack ,40,65000,Male,IT,Clerk,2019.12.01,C,email@example.com,123-456-7890, Jack 
+ alice ,25,55000,Female,Sales,Clerk,20-02-2020,B,,nan, Alice 
+ frank ,35,65000,Female,IT,Analyst,20-02-2020,C,user@domain.com,nan, Frank 
+ frank ,thirty,65000,Other,HR,Assistant,2019.12.01,D,nan,555-555-5555, Frank 
+ david ,nan,50000,Female,Sales,Assistant,20-02-2020,D,nan,555-555-5555, David 
+ hannah ,50,65000,Other,HR,Clerk,2019.12.01,D,,098-765-4321, Hannah 
+ david ,nan,70000,Male,IT,Director,20-02-2020,F,user@domain.com,098-765-4321, David 
+ hannah ,50,70000,Female,Finance,Clerk,03-25-2019,A,nan,nan, Hannah 
+ hannah ,40,50000,Male,Marketing,Director,20-02-2020,C,,123-456-7890, Hannah 
+ eve ,nan, NAN ,Female,HR,Director,"April 5, 2018",B,nan, , Eve 
+ david ,thirty,55000,Male,IT,Clerk,2019.12.01,D,nan, , David 
+ bob ,thirty,55000,Female,Sales,Manager,01/15/2020,C,nan,123-456-7890, Bob 
+ charlie ,nan,65000,Female,HR,Assistant,01/15/2020,D,name@company.org,123-456-7890, Charlie 
+ charlie ,thirty,65000,Female,HR,Director,2019.12.01,D,user@domain.com,555-555-5555, Charlie 
+ david ,40, NAN ,Female,Marketing,Director,03-25-2019,B,, , David 
+ david ,25,65000,Female,IT,Manager,20-02-2020,F,,nan, David 
+ jack ,40,55000,Female,Finance,Analyst,03-25-2019,A,user@domain.com,098-765-4321, Jack 
+ eve ,50,SIXTY THOUSAND,Female,Sales,Manager,01/15/2020,F,user@domain.com,555-555-5555, Eve 
+ david ,40,70000,Female,IT,Manager,2019.12.01,C,user@domain.com, , David 
+ jack ,50,SIXTY THOUSAND,Female,Sales,Director,2019.12.01,F,user@domain.com,123-456-7890, Jack 
+ hannah ,thirty,SIXTY THOUSAND,Male,HR,Assistant,03-25-2019,C,email@example.com, , Hannah 
+ frank ,25,55000,Other,Marketing,Manager,03-25-2019,C,,nan, Frank 
+ frank ,thirty,SIXTY THOUSAND,Female,Marketing,Analyst,20-02-2020,A,email@example.com,555-555-5555, Frank 
+ hannah ,35, NAN ,Other,Finance,Clerk,"April 5, 2018",B,nan,123-456-7890, Hannah 
+ grace ,thirty,50000,Female,Marketing,Manager,"April 5, 2018",A,nan,nan, Grace 
+ jack ,50,65000,Female,HR,Manager,20-02-2020,F,,098-765-4321, Jack 
+ jack ,thirty,50000,Male,Finance,Analyst,"April 5, 2018",C,nan,555-555-5555, Jack 
+ hannah ,thirty,70000,Male,IT,Assistant,01/15/2020,D,user@domain.com,nan, Hannah 
+ bob ,25,65000,Other,Marketing,Manager,"April 5, 2018",D,email@example.com,nan, Bob 
+ ivy ,thirty,SIXTY THOUSAND,Male,Finance,Manager,20-02-2020,C,user@domain.com,123-456-7890, Ivy 
